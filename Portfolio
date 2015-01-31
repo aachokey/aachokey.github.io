@@ -1,11 +1,10 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>Aric A. Chokey | Multimedia Journalist</title>
 <meta name="viewport" content="width=device-width, user-scalable=no">
 <link rel="author" href="https://plus.google.com/107585425447896856307"/>
-<meta name="description" content="I'm a journalism student getting ready for the professionaly world.">
+<meta name="description" content="I'm a journalism student getting ready for the professional world.">
 <script src="script.js"></script>
 <script src="app.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -34,7 +33,7 @@
     width:100%;
     text-align: center;
     background:#000;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Abel", sans-serif;
     position: fixed;
     margin: 0;
 }
@@ -70,29 +69,28 @@
     display: none;
 }
 
-
   a {
     text-decoration: none;
-  }
+}
   
-  .intro a:visited{
+  .intro a:visited {
     color: #3333FF;
-  }
+}
 
-  .intro h3{
+  .intro h3 {
     font-size: 4em;
     font-family: Abel, sans-serif;
     margin: 0px 0px 10px 0px;
     padding: 30px 0px 0px 0px;
-  }
+}
 
-  .intro p{
+  .intro p {
     font-size: 1.3em;
     font-family: 'News Cycle', sans-serif;
     text-align: center;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 50px 0px;
-  }
+}
 
   h1 {
     color: #fff;
@@ -106,7 +104,7 @@
 
   h2 {
     color: #fff;
-    font-family: 'Shift', sans-serif;
+    font-family: 'Abel', sans-serif;
     font-size: 3em;
     text-align: center;
     margin-top: 0px;
@@ -143,7 +141,7 @@
     font-size: 1.5em;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
-  }
+}
 
   p {
     font-family: 'News Cycle', sans-serif;
@@ -206,12 +204,12 @@
     padding: 0px 10px 5px 10px;
     margin: 0px 0px 0px 0px;
     vertical-align: top;
- }
+}
 
   .skills {
     margin-top: 40px;
     margin-bottom: 60px;
-  }
+}
 
   .img-box{
     width: 100%;
@@ -219,13 +217,17 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
-  }
+}
 
   .img-box:hover{
     opacity: 0.6;
      transition: opacity .25s ease-in-out;
       -moz-transition: opacity .25s ease-in-out;
        -webkit-transition: opacity .25s ease-in-out;
+}
+
+  #contact a:hover{
+      border-bottom: 1px solid white;
   }
 
 @media screen and (max-width : 760px){
@@ -237,9 +239,10 @@
     display:block;
 }
 
-  .col-1-3{
+  .col-1-3 {
     margin-bottom: 15px;
 }
+
 @media screen and (max-width: 600px) {
   nav { 
       height: auto;
@@ -274,6 +277,7 @@
     display: block;
     background-color: #283744;
     width: 100%;
+    height: 40px;
     position: relative;
     text-align:center;
 }
@@ -282,7 +286,7 @@
     content:"";
     width: 30px;
     height: 30px;
-    display: inline-block;
+    display: block;
     position: absolute;}
 }
 
@@ -334,53 +338,51 @@
 }
 
 
-House Bill 1026
-
 </style>
-<script>
-		 var(function() {
-			var pull 		= $('#pull');
-				  menu 		= $('nav ul');
-          selection      = $('nav a');
-				  menuHeight	= menu.height();
-			$(selection).click(function() {
-        menu.slideToggle();
-        return false;
-      $('#pull').on('click', function() {
-				menu.slideToggle();
-			});		
 
-			$(window).resize(function(){
-        		var w = $(window).width();
-        		if(w > 320 && menu.is(:hidden)) {
-        			menu.remsoveAttr('style');
-        		}
-			});	
-		});
+<script>
+$(function() {
+	var pull 		= $('#pull');
+		menu 		= $('nav ul');
+		selection	= $('nav a#pull');
+		menuHeight	= menu.height();
+	$(selection).click(function() {
+		menu.slideToggle();
+		return false;
+	$(pull).click(function() {
+		menu.slideToggle();
+	});
+});
+	$(window).resize(function(){
+		var w = $(window).width();
+		if(w > 320 && menu.is(':hidden')) {
+			menu.removeAttr('style');
+		}
+	});	
+});
 
 </script>
-
-
 </head>
 
 <body>
 <!---Nav Bar-->
+
 <nav>
-		<ul>
-		<li><a href="#home">Home</a></li>
-		<li><a href="#about">About</a></li>
-		<li><a href="#work">Work</a></li>
-		<li><a href="https://drive.google.com/file/d/0Byz-aBzt1W2lMGt6N1VuemZXQnM/view?usp=sharing" target="_blank">Resume</a></li>
+<a href="#" id="pull"><b>Menu</b></a>
+    <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="https://drive.google.com/file/d/0Byz-aBzt1W2lQl8xbGZrLVlaNlE/view?usp=sharing">Resume</a></li>
     <li><a href="#contact">Contact</a></li>
-		</ul>
-      		<a href="#" id="pull"><b>Menu</b></a>
-	</nav>
+    </ul>
+</nav>
 
 <section id="home"></section>
      <div class="open">
       <div class="container">
         <h1>Aric A. Chokey</h1>
-        <h2>Multimedia Journalist.<br>Data Enthusiast.</h2>
+        <h2>Journalist. Coder.<br>Data Enthusiast.</h2>
       </div>
     </div>
 
@@ -389,12 +391,11 @@ House Bill 1026
     <section id="about" style="background-color: #98C73D">
       <div class="intro">
       <h3>Hi, I'm Aric.</h3>
-      <p>I am currently the news editor at the <a href="http://www.ballstatedaily.com/" target="_blank">Ball State Daily News</a>. The majority of my job is helping reporters reach their potential by coaching them with story angles, structuring writing, cultivating sources and digesting complicated topics.<br><br>
+      <p>I am currently the news editor at the <a href="http://www.ballstatedaily.com/" target="_blank">Ball State Daily News</a>. The majority of my job is helping reporters reach their potential by coaching them with story angles, structuring writing, cultivating sources and digesting complicated topics. I've also helped carry the section through our newspaper's online-first transition.<br><br>
 
           Aside from editing work, I keep my reporting and writing skills sharp as a politics reporter. I wrangle <a href="http://www.ballstatedaily.com/article/2015/01/state-legislators-roll-out-bills-for-2015" target="_blank">political events and moves</a> and repackage them to relate to Ball State.<br><br>
 
-           My interests are mainly in data journalism and creating stories that are useful to the public. Outside of class and the Daily News, I'm always working on learning a new computer language and methods to web scraping and data manipulation.<br><br>
-
+           My interests are mainly in data journalism, coding and creating stories that are useful to the public. Outside of class and the Daily News, I'm always working on learning a new computer language and methods to web scraping and data manipulation.<br><br>
 
           I'm in my last semester as a journalism and telecommunications major at Ball State University.
       </p>
@@ -407,13 +408,13 @@ House Bill 1026
       <div class="col-1-3">
         <h4>Ball State Daily News</h4>
         <h5>Chief reporter, copy editor</h5>
-        <p>I've covered diverse topics as a writer for the Daily News including <a href="http://www.ballstatedaily.com/article/2013/10/village-promenade-project-details-released" target="_blank">community development</a>, <a href="http://www.ballstatedaily.com/article/2014/09/sga_resignition" target="_blank">depression on campus</a>, <a href="http://www.ballstatedaily.com/article/2013/09/remarks-on-twitter-lead-to-ball-state-sga-vice-president-taking-over-position" target="_blank">diversity and racism</a>, <a href="http://www.ballstatedaily.com/article/2014/12/december-trustee-meeting" target="_blank">university administration</a>, <a href="http://www.ballstatedaily.com/article/2014/10/fraud-investigation" target="_blank">fraud</a> and even <a href="http://www.ballstatedaily.com/article/2014/10/manufacturing-day" target="_blank">President Obama</a>. As a beat reporter, I learned to cultivate sources, dissect documents and produce photo, video and interactive maps in order to leverage strengths of stories.</p>
+        <p>I've covered diverse topics as a writer for the Daily News including <a href="http://www.ballstatedaily.com/article/2013/10/village-promenade-project-details-released" target="_blank">community development</a>, <a href="http://www.ballstatedaily.com/article/2014/09/sga_resignition" target="_blank">depression on campus</a>, <a href="http://www.ballstatedaily.com/article/2013/09/remarks-on-twitter-lead-to-ball-state-sga-vice-president-taking-over-position" target="_blank">diversity and racism</a>, <a href="http://www.ballstatedaily.com/article/2014/12/december-trustee-meeting" target="_blank">university administration</a>, <a href="http://www.ballstatedaily.com/article/2014/10/fraud-investigation" target="_blank">fraud</a> and even <a href="http://www.ballstatedaily.com/article/2014/10/manufacturing-day" target="_blank">President Obama</a>. As a beat reporter, I learned to cultivate sources, dissect documents and produce photo, video and interactive maps to showcase different facets of stories.</p>
       </div>
 
       <div class="col-1-3">
         <h4>The South Bend Tribune</h4>
         <h5>Reporting intern</h5>
-        <p>I spent 10 weeks as an intern writing stories about community initiatives and business at the publication with a 65,000 daily circulation. To go along with my stories, I also got to create interactive <a href="http://www.southbendtribune.com/news/local/fireworks-aplenty-this-week/article_f1e48154-e165-11e2-a6db-0019bb30f31a.html">maps</a> and hung out with beat reporters as they chased stories and mentored me on beat reporting.</p>
+        <p>I spent 10 weeks as an intern writing stories about community initiatives and business at the publication with a 65,000 daily circulation. To go along with my stories, I also got to create interactive <a href="http://www.southbendtribune.com/news/local/fireworks-aplenty-this-week/article_f1e48154-e165-11e2-a6db-0019bb30f31a.html" target="_blank">maps</a> and hung out with beat reporters as they chased stories and mentored me on beat reporting.</p>
       </div>
 
       <div class="col-1-3">
@@ -425,13 +426,13 @@ House Bill 1026
  </div>
 
  <div class="grid">
-      <div class="col-1-3"><a href="http://www.ballstatedaily.com/article/2014/11/2014-gen-el-candidates"><div class="img-box" style="background-image: url(https://farm8.staticflickr.com/7558/16073731628_1451706d3d_n.jpg)"></div></a><h4>Interactive candidate guide</h4>
+      <div class="col-1-3"><a href="http://www.ballstatedaily.com/article/2014/11/2014-gen-el-candidates" target="_blank"><div class="img-box" style="background-image: url(https://farm8.staticflickr.com/7558/16073731628_1451706d3d_n.jpg)"></div></a><h4>Interactive candidate guide</h4>
       </div>
 
       <div class="col-1-3"><a href="http://unifiedmediadesign.com/UMDL/DelawareCountyMidtermElection.html"><div class="img-box" style="background-image: url(https://farm8.staticflickr.com/7578/16259510061_b1717d0d56_n.jpg)"></div></a><h4>Mid-term elections coverage</h4>
       </div>
 
-      <div class="col-1-3"><a href="http://delawarecocourts.tumblr.com"><div class="img-box" style="background-image: url(https://farm9.staticflickr.com/8590/16075472717_bbb8973eba_n.jpg)"></div></a><h4>Circuit Court website</h4>
+      <div class="col-1-3"><a href="http://delawarecocourts.tumblr.com" target="_blank"><div class="img-box" style="background-image: url(https://farm9.staticflickr.com/8590/16075472717_bbb8973eba_n.jpg)"></div></a><h4>Circuit Court website</h4>
       </div>
  </div>
 
@@ -439,22 +440,22 @@ House Bill 1026
       <h3>Aside from the daily editing and reporting work, I'm always working to branch my skills out into new areas.</h3>
         <div class="grid">
           <div class="col-1-5"><h6>Data Analysis</h6>
-          <p>Web scraping, data refining, Excel, Basic math and economics.</p>
+          <p>Web scraping, data refining, Excel, basic math and economics.</p>
           </div>
           <div class="col-1-5"><h6>Coding</h6>
           <p>HTML, CSS, JavaScript, jQuery, Python, R., GitHub.</p>
           </div>
           <div class="col-1-5"><h6>Multimedia</h6>
-          <p>Photography, Videography, Audio production, Adobe Creative Suite.</p>
+          <p>Photography, videography, audio production, Adobe Creative Suite.</p>
           </div>
           <div class="col-1-5"><h6>Web Production</h6>
-          <p>Google Maps, Storify, Responsive design, This website.</p>
+          <p>Google Maps, Storify, responsive design, <a href="https://github.com/aachokey/aricchokey.github.io" target="_blank">This website.</a></p>
           </div>
           <div class="col-1-5"><h6>Reporting</h6>
-          <p>News writing for print, web and broadcast, Beat reporting, AP style, News editing, Live-tweeting, crowdsourcing and FOIA and records requesting.</p></div>
+          <p>News writing for print, web and broadcast, beat reporting, AP style, news editing, coordinating breaking news coverage, live-tweeting, crowdsourcing and FOIA and records requesting.</p></div>
         </div>
       </div>
-  	</section>
+    </section>
 
     <section id="contact" style="background-color: #000">
       <h3 style="color: #fff">Let's connect. I'm always open to new projects and learning opportunities.</p>
@@ -466,9 +467,10 @@ House Bill 1026
         <a link href="https://www.linkedin.com/in/aricchokey" target="_blank"><img src="https://cloud.githubusercontent.com/assets/4543260/4261937/e54cd3b8-3b84-11e4-8892-d3cbaa2cb7ab.png"></a>
     <!---Email-->
         <a link href="mailto:achokey21@gmail.com" target="_blank"><img src="https://cloud.githubusercontent.com/assets/4543260/4261938/e718d372-3b84-11e4-8159-2634b53754bb.png"></a>
+        <a href="https://drive.google.com/file/d/0Byz-aBzt1W2lQl8xbGZrLVlaNlE/view?usp=sharing" target="_blank"><h4 style="color:white">Check out my resume</h4></a>
         </center>
       <p style="text-align:right; font-family:'Shift'; font-size: .5em">Copyright 2015 Aric Chokey. Silhouette photo by Maggie Kenworthy.</p>
-  	</section>
+    </section>
 
 </div>
 
