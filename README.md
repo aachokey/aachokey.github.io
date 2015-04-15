@@ -1,2 +1,0 @@
-aricchokey.github.io
-====================
