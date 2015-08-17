@@ -1,525 +1,144 @@
 <!DOCTYPE html>
-<html>
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<title>Aric A. Chokey | Digital Journalist. Data and code person.</title>
-<meta name="viewport" content="width=device-width, user-scalable=no">
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="description" content="I'm a journalist.">
+<meta name="keywords" content="journalism, digital, media, journalist, writer, data journalist, Aric, Chokey">
+<meta name="google-site-verification" content="http:www.aricchokey.com"/>
 <link rel="author" href="https://plus.google.com/107585425447896856307"/>
-<meta name="description" content="I'm a journalism student getting ready for the professional world.">
-<meta name="keywords" content="journalism, digital, media, journalist, writer, data journalist">
-<script src="script.js"></script>
-<script src="app.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
 
-
-<style>
-  body {
-    background-attachment:fixed;
-    background-color:#000;
-    background-repeat:no-repeat;
-    background-position:top;
-    background-size: cover;
-    background-image: url(https://farm4.staticflickr.com/3895/15305193945_19183680df_o.png);
-      -webkit-background-size: cover;
-       -moz-background-size: cover;
-         -o-background-size: cover;
-    margin:0;
-}
-
-  nav {
-    top:0%;
-    left:0%;
-    height: 40px;
-    width:100%;
-    text-align: center;
-    background:#000;
-    font-family: "Abel", sans-serif;
-    position: fixed;
-    margin: 0;
-}
-
-  nav ul {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    height: 40px;
-}
-
-  nav li {
-    display: inline;
-    float: left;
-    width: 20%;
-}
-
-  nav a {
-    color: #fff;
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-    line-height: 40px;
-}  
-
-  nav a:hover, nav a:active {
-    background-color: #8c99a4;
-}
-
-  
-  nav a#pull {
-    display: none;
-}
-
-  a {
-    text-decoration: none;
-}
-  
-  .intro a:visited {
-    color: #3333FF;
-}
-
-  .intro h3 {
-    font-size: 4em;
-    font-family: Abel, sans-serif;
-    margin: 0px 0px 10px 0px;
-    padding: 30px 0px 0px 0px;
-}
-
-  .intro p {
-    font-size: 1.3em;
-    font-family: 'News Cycle', sans-serif;
-    text-align: center;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 50px 0px;
-}
-
-  h1 {
-    color: #fff;
-    font-size: 5em;  
-    font-family: 'Shift', sans-serif;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 0px;
-    position: static;
-}
-
-  h2 {
-    color: #fff;
-    font-family: 'Abel', sans-serif;
-    font-size: 3em;
-    text-align: center;
-    margin-top: 0px;
-    position: static;
-}
-
-  h3 {
-    font-size: 1.3em;
-    color: #081317;
-    font-family: 'News Cycle', sans-serif;
-    margin: 0px 0px 0px 0px;
-    padding: 40px 10px 15px 10px;
-}
-
-  h4 {
-    font-family: 'News Cycle', sans-serif;
-    color: #000;
-    font-size: 1em;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-  }
-
-  h5 {
-    font-size: 0.8em;
-    border-bottom: thin solid #000;
-    font-family: 'News Cycle', sans-serif;
-    color: #000;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-}
-
-  h6 {
-    font-family: 'Abel', sans-serif;
-    font-size: 1.5em;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-}
-
-  p {
-    font-family: 'News Cycle', sans-serif;
-    font-size: 0.85em;
-}
-
-  .col-1-3 p {
-    text-align: left;
-}
-
-  .intro{
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 30px;
-    width: 50%;
-  }
-
-  .open {
-    width:100%;
-    padding-top: 5%;
-    padding-bottom: 20%;
-}
-
-  .container {
-    border: 1.5px solid #ffffff;
-    width: 50%;
-    padding-bottom: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 5%;
-}
-  
-  .content {
-    background-color:#ffffff;
-    text-align:center;
-    min-height:100%;
-    width: 100%;
-}
-  .grid {
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-  .col-1-3{
-    display: inline-block;
-    width: 250px;
-    padding: 10px 10px 5px 10px;
-    margin-right: 5px; 
-    vertical-align: top;
-}
-
-  .col-1-5 {
-    width: 13.33%;
-    height: auto;
-    display: inline-block;
-    padding: 0px 10px 5px 10px;
-    margin: 0px 0px 0px 0px;
-    vertical-align: top;
-}
-
-  .skills {
-    margin-top: 40px;
-    margin-bottom: 60px;
-}
-
-  .img-box{
-    width: 100%;
-    height: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5px;
-}
-
-  .img-box:hover{
-    opacity: 0.6;
-     transition: opacity .25s ease-in-out;
-      -moz-transition: opacity .25s ease-in-out;
-       -webkit-transition: opacity .25s ease-in-out;
-}
-
-  .skillicon {
-        height:50px;
-        width: 50px;
-        margin-top:30px;
-        margin-bottom: 20px;
-        margin-left:auto;
-        margin-right:auto;
-}
-
-  .skillicon img{
-        height:100%;
-        width: 100%;
-}
-
-  #contact a:hover{
-      border-bottom: 1px solid white;
-}
-
-@media screen and (max-width : 760px){
- 
-  .open {
-    display:block;
-    width:100%;
-    height: auto;
-    display:block;
-}
-
-  .col-1-3 {
-    margin-bottom: 15px;
-}
-
-@media screen and (max-width: 600px) {
-  nav { 
-      height: auto;
-}
-  
-  nav ul {
-      width: 100%;
-      display: block;
-      height: auto;
-}
-  
-  nav li {
-      width: 100%;
-      display:block;
-}
-  
-  nav li a {
-    border-bottom: 1px solid #576979;
-    border-right: 1px solid #576979;
-}
-  
-  nav a {
-      width: 100%;
-}
-  
-  nav ul {
-    display: none;
-    height: auto;
-}
-
-  nav a#pull {
-    display: block;
-    background-color: #283744;
-    width: 100%;
-    height: 40px;
-    position: relative;
-    text-align:center;
-}
-  
-  nav a#pull:after {
-    content:"";
-    width: 30px;
-    height: 30px;
-    display: block;
-    position: absolute;}
-}
-
-  .container{
-    margin-top: 20%;
-}
-
-/*Smartphone*/
-@media only screen and (max-width : 320px) {
-  nav li {
-    display: block;
-    float: none;
-    width: 100%;
-    text-align:center;
-}
-
-  nav li a {
-    text-align:center;}
-}
-
-  .col-1-3{
-    text-align: center;
-}
-
-  .col-1-2{
-    text-align: center;
-}
-
-  .col-1-5 {
-    width: 15%;
-    display: block;
-}
-
-  h1 {
-    font-size: 3em;  
-}
-  
-  h2 {
-    font-size: 1.5em;  
-}
-
-  .intro p{
-    font-size: 1em;
-}
-
-  [class*='col-1-5'] {
-  width: auto;
-  float: none;
-}
-
-
-</style>
-
-<script>
-$(function() {
-	var pull 		= $('#pull');
-		menu 		= $('nav ul');
-		selection	= $('nav a#pull');
-		menuHeight	= menu.height();
-	$(selection).click(function() {
-		menu.slideToggle();
-		return false;
-	$(pull).click(function() {
-		menu.slideToggle();
-	});
-});
-	$(window).resize(function(){
-		var w = $(window).width();
-		if(w > 320 && menu.is(':hidden')) {
-			menu.removeAttr('style');
-		}
-	});	
-});
-
-</script>
+<!-- Styles -->
+<link rel="stylesheet" type="text/css" href="style.min.css">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<title>Aric Chokey | Journalist and developer</title>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-38688820-1', 'auto');
   ga('send', 'pageview');
-
 </script>
-
 </head>
-
 <body>
-<!---Nav Bar-->
+	<header>
+		<a href="#">
+		<h1>Aric Chokey</h1>
+		<h2>Journalist and web developer</h2>
+		</a>
+		</header>
+		<div class="module one">
+			<h3>About</h3>
+			<div class="content">
+				<p>Lately, I've been hacking content as a web intern at the Pulitzer Prize-winning <a href="http://tampabay.com" target="blank">Tampa Bay Times</a> and fresh off of the editorial team of the award-winning <a href="http://ballstatedaily.com" target="blank">Ball State Daily News</a>. While there I've helped carry the news section through our newspaper's digital-first transition as news editor.</p>
+				<br />
+				<p>Intrinsically, I'm a creator whether that be of copy or code. During my gigs at newspapers, I've worn a few hats doing web producing, copy editing, news editing, beat and graphic reporting and social media management. I've also spent some time at a startup and the Indiana Senate's communications office producing promotional content and growth hacking.</p>
+				<br />
+				<p>I've also just finished my undergraduate degree from Ball State's mulltimedia journalism program. I spent four years in the program learning how to gauge which digital tools to use to best leverage storytelling.</p>
+				<br />
+				<p>I spend a lot of time reading about trends in web publishing, product management, UX design and front-end methodologies. I usually tweet a lot of the ideas I come across, so <a href="http://twitter.com/@aric_chokey" target="blank">connect with me on Twitter</a> and see which ideas I'm tossing around.</p><br />
+			</div>
+		</div>
+		<div class="module two">
+			<h3>Writing</h3>
+			<div class="content">
+				<ul class="flex-container">
+					<li class="flex-item" id="carli">
+						<p>Student government VP resigns after being hospitalized and diagnosed for depression.</p>
+						<div class="btn"><h5><a href="http://www.ballstatedaily.com/article/2014/09/sga_resignition" target="_blank">View story</a></h5></div>
+					</li>
+					<li class="flex-item" id="obama">
+						<p>Obama visits Indiana for National Manufacturing Day.</p>
+						<div class="btn"><h5><a href="http://www.ballstatedaily.com/article/2014/10/manufacturing-day" target="_blank">View story</a></h5></div>
+					</li>
+					<li class="flex-item" id="alcohol">
+						<p>Lawmakers weigh allowing Sunday alcohol sales in Indiana.</p>
+						<div class="btn"><h5><a href="http://www.ballstatedaily.com/article/2015/02/sunday-alcohol-sales" target="_blank">View story</a></h5></div>
+					</li>
+					<li class="flex-item" id="bills">
+						<p>Explainer: What this year's proposed legislation is and means.</p>
+						<div class="btn"><h5><a href="http://www.ballstatedaily.com/article/2015/01/state-legislators-roll-out-bills-for-2015" target="_blank">View story</a></h5></div>
+					</li>
+					<li class="flex-item" id="jjh">
+						<p>Director of student life resigns after oppressive comments to students.</p>
+						<div class="btn"><h5><a href="http://www.ballstatedaily.com/article/2015/03/director-of-student-life-resigns" target="_blank">View story</a></h5></div>
+					</li>
+					<li class="flex-item" id="promenade">
+						<p>Developer releases plans for a $15 million multiuse project near campus.</p>
+						<div class="btn"><h5><a href="http://www.ballstatedaily.com/article/2013/10/village-promenade-project-details-released" target="_blank">View story</a></h5></div>
+					</li>
+					<li class="flex-item" id="ferguson">
+						<p>Q&A with students that went to Ferguson, Missouri to shoot a documentary.</p>
+						<div class="btn"><h5><a href="http://www.ballstatedaily.com/article/2014/08/ferguson-q-and-a" target="_blank">View story</a></h5></div>
+					</li>
+					<li class="flex-item" id="budget">
+						<p>Indiana's budget proposal includes first fund increase for Ball State since recession.</p>
+						<div class="btn"><h5><a href="http://www.ballstatedaily.com/article/2015/03/ball-state-budget" target="_blank">View story</a></h5></div>
+					</li>
 
-<nav>
-<a href="#" id="pull"><b>Menu</b></a>
-    <ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#work">Work</a></li>
-    <li><a href="https://drive.google.com/file/d/0Byz-aBzt1W2lQl8xbGZrLVlaNlE/view?usp=sharing" target="_blank">Resume</a></li>
-    <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
-
-<section id="home"></section>
-     <div class="open">
-      <div class="container">
-        <h1>Aric A. Chokey</h1>
-        <h2>Digital journalist. Coder.<br>Data Enthusiast.</h2>
-      </div>
-    </div>
-
-
-<div class="content">
-    <section id="about" style="background-color: #98C73D">
-      <div class="intro">
-      <h3>Hi, I'm Aric.</h3>
-	<p>I'm an intern at the Pulitzer Prize-winning <a href="tampabay.com" target="_blank">Tampa Bay Times</a> and fresh off of the editorial team of the award-winning <a href="http://www.ballstatedaily.com/" target="_blank">Ball State Daily News</a> where I've helped carry the news section through our newspaper's digital-first transition. I've also just finished my undergraduate degree from Ball State's journalism program.<br><br>
-       Though my background is in print, my interests are mainly in data journalism, front-end development and using design thinking to create stories and projects that are useful to the public. I'm always working on learning a new computer language and methods to web scraping and data manipulation.
-       <br><br>
-       Lately, I've been playing around a lot with <a href="http://d3js.org/">D3</a> for data visualization and <a href="http://public.tableau.com/profile/aachokey#!/">Tableau</a>.
-        </p>
-      </div>
-    </section>
-
-    <section id="work" style="background-color: #ffffff">
-<h3>Most recent stories</h3>
-<div class="grid">
-       <a href="http://www.ballstatedaily.com/article/2015/03/ball-state-budget" target="_blank"><div class="col-1-3"><h4>Data story: Indiana budget draft</h4>
-          <p>Legislators drafted the state's biennium budget and the first increase in funding for Ball State since the recession.</p>
-       </div></a>
-       
-      <a href="http://unifiedmediadesign.com/UMDL/sotu.html#hero" target="_blank"><div class="col-1-3"><h4>Feature: Ball State's president</h4>
-          <p>I interviewed Ball State's new president seven months after he took office.</p>
-      </div></a>
-
-       <a href="http://www.ballstatedaily.com/article/2015/02/centennial-commitment" target="_blank"><div class="col-1-3"><h4>BSU State of the University</h4>
-          <p> Ball State's president gave the state of the unviersity address and his vision for campus.</p>
-       </div></a>
-</div>
-          <h3>I've had the opportunity to get some writing experience from a few different professional gigs.</h3><br>
-<div class="grid">
-      <div class="col-1-3">
-        <h4>The South Bend Tribune</h4>
-        <h5>Reporting intern</h5>
-        <p>I spent 10 weeks as an intern writing stories about community initiatives and business at the publication with a 65,000 daily circulation. To go along with my stories, I also got to create interactive <a href="http://www.southbendtribune.com/news/local/fireworks-aplenty-this-week/article_f1e48154-e165-11e2-a6db-0019bb30f31a.html" target="_blank">maps</a>.</p>
-      </div>
-
-      <div class="col-1-3">
-        <h4>Indiana State Senate</h4>
-        <h5>Communications intern</h5>
-        <p>With a caseload of five senators, I spent the 2014 legislative session as a communications intern turning public data into digestible information for legislators, researching talking points for senators, tailoring press releases, managing media interviews and producing photo, video, graphic and podcasts.</p>
-      </div>
-      
-      <div class="col-1-3">
-        <h4>Ball State Daily News</h4>
-        <h5>Chief reporter, copy editor</h5>
-        <p>I've covered diverse topics as a writer for the Daily News including <a href="http://www.ballstatedaily.com/article/2013/10/village-promenade-project-details-released" target="_blank">community development</a>, <a href="http://www.ballstatedaily.com/article/2014/09/sga_resignition" target="_blank">depression on campus</a>, <a href="http://www.ballstatedaily.com/article/2013/09/remarks-on-twitter-lead-to-ball-state-sga-vice-president-taking-over-position" target="_blank">diversity and racism</a>, <a href="http://www.ballstatedaily.com/article/2014/12/december-trustee-meeting" target="_blank">university administration</a>, <a href="http://www.ballstatedaily.com/article/2014/10/fraud-investigation" target="_blank">fraud</a> and even <a href="http://www.ballstatedaily.com/article/2014/10/manufacturing-day" target="_blank">President Obama</a>. As a beat reporter, I learned to cultivate sources, dissect documents and produce photo, video and interactive maps to showcase different facets of stories.</p>
-      </div>
-          <h3>I also helped contribute to some special projects. Here are a few of my favorites.</h3>
- </div>
-
- <div class="grid">
-      <div class="col-1-3"><a href="http://www.ballstatedaily.com/article/2014/11/2014-gen-el-candidates" target="_blank"><div class="img-box" style="background-image: url(https://farm8.staticflickr.com/7558/16073731628_1451706d3d_n.jpg)"></div></a><h4>Interactive candidate guide</h4>
-      </div>
-
-      <div class="col-1-3"><a href="http://unifiedmediadesign.com/UMDL/DelawareCountyMidtermElection.html"><div class="img-box" style="background-image: url(https://farm8.staticflickr.com/7578/16259510061_b1717d0d56_n.jpg)"></div></a><h4>Mid-term elections coverage</h4>
-      </div>
-
-    <div class="col-1-3"><a href="http://cdn.knightlab.com/libs/storymapjs/latest/embed/?url=https://00f8d2848211b57f289d69f7aed5ca8f2a76815f.googledrive.com/host/0Byz-aBzt1W2lLWpRNVh5NDVfcUE/published.json" target="_blank"><div class="img-box" style="background-image: url(https://farm8.staticflickr.com/7438/15816362813_d6a4945aa6_n.jpg)"></div></a><h4>Interactive Ball State president biography</h4>
-      </div>
- </div>
-
-    <div class="skills">
-      <h3>Aside from the daily editing and reporting work, I'm always working to branch my skills out into new areas.</h3>
-        <div class="grid">
-          <div class="col-1-5"><div class="skillicon"><img src="https://cloud.githubusercontent.com/assets/4543260/6889322/ecb0916c-d661-11e4-976f-64977501cd72.png"></div>
-          <h6>Data Analysis</h6>
-          <p>Web scraping, data refining, Excel, basic math and economics.</p>
-          </div>
-          <div class="col-1-5"><div class="skillicon"><img src="https://cloud.githubusercontent.com/assets/4543260/6889324/f1f88878-d661-11e4-83fb-68a1d84e1776.png"></div>
-          <h6>Coding</h6>
-          <p>HTML, CSS, JavaScript, jQuery, Python, R., GitHub.</p>
-          </div>
-          <div class="col-1-5"><div class="skillicon"><img src="https://cloud.githubusercontent.com/assets/4543260/6889320/e88b7f84-d661-11e4-9e9f-920ecfee58ef.png"></div>
-          <h6>Multimedia</h6>
-          <p>Photography, videography, audio production, Adobe Creative Suite.</p>
-          </div>
-          <div class="col-1-5"><div class="skillicon"><img src="https://cloud.githubusercontent.com/assets/4543260/6889323/ee2674a8-d661-11e4-87cf-0103d0c323c4.png"></div>
-          <h6>Web Production</h6>
-          <p>Google Maps, web analytics, Storify, live-tweeting, crowdsourcing, responsive design and <a href="https://github.com/aachokey/aricchokey.github.io" target="_blank">this website.</a></p>
-          </div>
-          <div class="col-1-5"><div class="skillicon"><img src="https://cloud.githubusercontent.com/assets/4543260/6889321/eabe509c-d661-11e4-90dc-2b1f983413a7.png"></div>
-          <h6>Reporting</h6>
-          <p>News writing for print, web and broadcast, beat reporting, AP style, news editing, coordinating breaking news coverage and FOIA and records requesting.</p></div>
-        </div>
-      </div>
-    </section>
-    <section id="contact" style="background-color: #000">
-      <h3 style="color: #fff">Let's connect. I'm always open to new projects and learning opportunities.</h3>
-      <h4 style="color: #fff">Si quieres, podemos hablar en espanol tambien!</h4><br>
-
-      <center>
-    <!---Twitter-->
-        <a link href="https://twitter.com/aric_chokey" target="_blank"><img src="https://cloud.githubusercontent.com/assets/4543260/4261926/6a445056-3b84-11e4-95cc-c4b160e9b210.png"></a>
-    <!---LinkedIn-->
-        <a link href="https://www.linkedin.com/in/aricchokey" target="_blank"><img src="https://cloud.githubusercontent.com/assets/4543260/4261937/e54cd3b8-3b84-11e4-8892-d3cbaa2cb7ab.png"></a>
-    <!---Email-->
-        <a link href="mailto:achokey21@gmail.com" target="_blank"><img src="https://cloud.githubusercontent.com/assets/4543260/4261938/e718d372-3b84-11e4-8159-2634b53754bb.png"></a>
-        <a href="https://drive.google.com/file/d/0Byz-aBzt1W2lQl8xbGZrLVlaNlE/view?usp=sharing" target="_blank"><h4 style="color:white">Check out my resume</h4></a>
-        </center>
-      <p style="text-align:right; font-family:'Shift'; font-size: .5em">Copyright 2015 Aric Chokey. Silhouette photo by Maggie Kenworthy.</p>
-    </section>
-
-</div>
-
-<script src="jquery.min.js"></script>
-<script src="app.js"></script>
-
+				</ul>
+			</div>
+		</div>
+		<div class="module three">
+			<h3>Web work</h3>
+			<div class="content">
+				<ul class="flex-container">
+					<li class="flex-item" id="bike">
+						<p>Parallax scroll map detailing an editor's bike trip across the height of Florida.</p>
+						<div class="btn"><h5><a href="http://www.tampabay.com/projects/2015/features/one-wild-ride/" target="_blank">View story</a></h5></div>
+					</li>
+					<li class="flex-item" id="ferg">
+						<p>Timeline and story of Ball State University's new president.</p>
+						<div class="btn"><h5><a href="http://www.ballstatedaily.com/article/2015/02/president-paul-ferguson" target="_blank">View story</a></h5></div>
+					</li>
+					<li class="flex-item" id="courts">
+						<p>A site for a local circuit court system to house its self-litigation resources and send out news.</p>
+						<div class="btn"><h5><a href="http://delawarecocourts.tumblr.com/" target="_blank">View site</a></h5></div>
+					</li>
+				</ul>
+				<h4>Data Visualization</h4>
+				<ul class="flex-container">
+					<li class="flex-item" id="gdp">
+						<p>JavaScript: U.S. GDP growth per quarter</p>
+						<div class="btn"><h5><a href="http://www.tampabay.com/news/business/economicdevelopment/economy-grows-23-percent-in-spring-first-quarter-revised-higher/2239424" target="_blank">View graphic</a></h5></div>
+					</li>
+					<li class="flex-item" id="income">
+						<p>D3: Median income in Indiana per year</p>
+						<div class="btn"><h5><a href="http://htmlpreview.github.io/?https://github.com/aachokey/graphics/blob/master/IncomeChart.html" target="_blank">View graphic</a></h5></div>
+					</li>
+					<li class="flex-item" id="jobs">
+						<p>JavaScript: U.S. Job Growth</p>
+						<div class="btn"><h5><a href="http://htmlpreview.github.io/?https://github.com/aachokey/graphics/blob/master/jobs.html" target="_blank">View graphic</a></h5></div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="module four">
+			<a href="https://drive.google.com/file/d/0Byz-aBzt1W2lSy1zTnp6dGhsUlk/view?usp=sharing" target="_blank"><h3>Resume</h3></a>
+		</div>
+		<div class="module five">
+		<h3>Let's meet</h3>
+			<ul class="social">
+				<li>
+					<a href="http://twitter.com/aric_chokey" target="_blank"><i class="fa fa-twitter fa-2x"><br /><p>Twitter</p></i></a>
+				</li>
+				<li>
+					<a href="http://github.com/aachokey" target="_blank"><i class="fa fa-github fa-2x"><p>GitHub</p></i></a>
+				</li>
+				<li>
+					<a href="mailto:achokey21@gmail.com" target="_blank"><i class="fa fa-envelope fa-2x"><p>Email</p></i></a>
+				</li>
+			</ul>
+		</div>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
+
+
+
+
