@@ -15,10 +15,10 @@ body{
 
 header {
   position: relative;
--webkit-box-shadow: 0px 10px 48px 0px rgba(0,0,0,0.6);
--moz-box-shadow: 0px 10px 48px 0px rgba(0,0,0,0.6);
-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.6);
-padding: 20px;
+  -webkit-box-shadow: 0px 10px 48px 0px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0px 10px 48px 0px rgba(0,0,0,0.6);
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.6);
+  padding: 20px;
 }
 
 .module {
@@ -26,23 +26,23 @@ padding: 20px;
   padding-bottom: 25px;
 }
 
-.one{
+.one {
   background:#79BD9A;
 }
-.two{
+.two {
   background:#3B8686;
 }
-.three{
+.three {
   background:#0B486B;
 }
 .four {
   background:#1F3633;
 }
-.five{
+.five {
   background:#000000;
 }
 
-.content{
+.content {
   width: 80%;
   margin: 0 auto;
   padding: 20px;
@@ -69,7 +69,7 @@ h3 {
   font-size: 3em;
   color: #fff;
   text-align: center;
-  }
+}
 
 h4 {
   font-family: 'Rokkitt', sans-serif;
@@ -77,7 +77,7 @@ h4 {
   color: #fff;
   text-align: center;
   margin-top: 30px;
-  }
+}
 
 h5 {
   font-size: 1.5em;
@@ -88,6 +88,14 @@ h5 {
   width: 150px;
   padding: 8px;
   margin: 0 auto;
+}
+
+h6 {
+  font-size: 1.4em;
+  font-family: 'Rokkitt', sans-serif;
+  color: white;
+  background-color: #000;
+  text-align: center;
 }
 
 p {
@@ -111,15 +119,19 @@ a {
   flex-grow: 3;
   padding: 5px;
   width: 200px;
-  height: 150px;
+  height: 250px;
   margin: 5px;
-  box-shadow: 0 313px rgba(0, 0, 0, 0.6) inset;
+  box-shadow: 0 313px rgba(0, 0, 0, 0.85) inset;
   position: relative;
 }
 
 .flex-item p {
   color: white; 
-  background-color: #000;
+  font-size: 1em;
+}
+
+p.small {
+  font-size: .8em;
 }
 
 .btn {
@@ -129,7 +141,7 @@ a {
   bottom: 0;
 }
 
-/*-----------Social account content-----------*/
+/*-----------Social account icons-----------*/
 i {
   color: white;
 }
@@ -145,6 +157,7 @@ i p {
   width: 100%;
   text-align: center;
 }
+
 .social li {
   display: inline;
   margin: 20px;
@@ -152,69 +165,91 @@ i p {
 
 /*---------------------Clips------------------------------*/
 /*Writing clips*/
-#carli{
+#carli {
   background: url("http://i.imgur.com/xvan3Ty.png");
   background-size: cover;
 }
-#obama{
+
+#obama {
   background: url("http://i.imgur.com/sfbB5ih.jpg");
   background-size: cover;
 }
-#alcohol{
+
+#alcohol {
   background: url("http://i.imgur.com/zMOAvOe.png");
   background-size: cover;
 }
-#bills{
+
+#bills {
   background: url("http://i.imgur.com/UI4qpSg.png");
   background-size: cover;
 }
-#jjh{
+
+#jjh {
   background: url("http://i.imgur.com/M1bY33x.png");
   background-size: cover;
 }
-#promenade{
+
+#promenade {
   background: url("http://i.imgur.com/2dimrjS.jpg");
   background-size: cover;
 }
-#ferguson{
+
+#ferguson {
   background: url("http://i.imgur.com/Fl90gBR.png");
   background-size: cover;
 }
-#budget{
+
+#budget {
   background: url("http://i.imgur.com/rZdwm2B.jpg");
   background-size: cover;
 }
 
 /*Web clips*/
-#bike{
+#bike {
   background: url("http://i.imgur.com/zMOAvOe.png");
   background-size: cover;
 }
+
 #ferg {
   background: url("http://i.imgur.com/FTRE9Fb.png");
   background-size: cover;
 }
-#courts{
+
+#courts {
   background: url("http://i.imgur.com/zybtjDZ.png<");
   background-size: cover;
 }
+
 #elections {
   background: url("http://i.imgur.com/f6wXcln.png");
   background-size: cover;
 }
-#income{
+
+#income {
   background: url("http://i.imgur.com/fT88OXn.png");
   background-size: cover;
 }
-#jobs{
+
+#jobs {
   background: url("http://i.imgur.com/DKC5ezn.png");
   background-size: cover;
 }
-#gdp{
+
+#gdp {
   background: url("http://i.imgur.com/Umr3Vqp.png");
   background-size: cover;
 }
 
+#survey {
+  background: url("http://i.imgur.com/QHExHMa.png");
+  background-size: cover;
+}
+
+#employment {
+  background: url("http://i.imgur.com/bNSKk9q.png");
+  background-size: cover;
+}
 
 /*Media queries based on the size of the content, not on specific devices.*/
 
