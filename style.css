@@ -251,6 +251,11 @@ i p {
   background-size: cover;
 }
 
+#amenities {
+  background: url("http://i.imgur.com/Fg9xB62.png");
+  background-size: cover;
+}
+
 /*Media queries based on the size of the content, not on specific devices.*/
 
 @media screen and (max-width: 650px) {
