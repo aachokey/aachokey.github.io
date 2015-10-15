@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+<head>
+  <title>Halloween greeter</title>
+<link href='https://fonts.googleapis.com/css?family=Creepster' rel='stylesheet' type='text/css'>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<style>
+body{
+  font-family: sans-serif;
+  color: #000;
+  background-color: #CC5200;
+  background-image: url("http://25.media.tumblr.com/8d38faa63f2f7620a013ca2936ffc2be/tumblr_mv4v2jx5Xu1ra5gv8o1_500.gif");
+}
+
+#container{
+  width:800px;
+  margin:50px auto;
+  padding: 20px;
+  width:50%;
+  border:2px solid #000;
+  background-color: #CC5200;
+}
+#container h2{
+  font-family: 'Creepster', sans-serif;
+  text-align:center;
+  color:#000;
+}
+
+#translation{
+  width:75%;
+  padding:10px;
+  margin:30px auto;
+  text-align: center;
+  height:70px;
+}
+#buttonContainer{
+  width: 100%;
+  text-align: center;
+}
+#greetingButton{
+  width:200px;
+  margin-top: 10px;
+  border:2px solid #000;
+  color:#000;
+  font-family: inherit;
+  font-weight: bold;
+  padding:5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+#greetingButton:hover{
+  cursor:pointer;
+  background:#CC5200;
+  color: #fff;  
+}
+#greetingButton:active{
+  cursor: pointer;
+}
+#greetingButton{
+  display: inline-block;
+}
+#spoopyGreeting{
+  font-style: italic;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+/*MEDIA QUERIES*/
+@media screen and(max-width:760px){
+  #greetingButton,#addNew{
+    display: block;
+  }
+}
+</style>
+</head>
+
+<body>
+  <div id="container">
+    <h2>"Happy Halloween" in other languages</h2>
+      <div id="translation">
+        <p id="spoopyGreeting"></p>      
+      </div>
+      
+      <div id="buttonContainer">
+        <a href="#" id="greetingButton">Happy Halloween!</a>
+    </div>
+  </div>
+<script>
+  $(document).ready(function(){
+    var translateIt=[
+    {
+      phrase: "Sretan Halloween",
+      language:"Croatian"
+      },
+      {
+        phrase:"Vesel&yacute; halloween",
+        language:"Czech"
+      },
+      {
+        phrase:"Lykkelig halloween",
+        language:"Danish"
+      },
+      {
+        phrase:"Gelukkig halloween",
+        language:"Dutch"
+      },
+      {
+        phrase:"Masaya Halloween",
+        language:"Filipino"
+      },
+      {
+        phrase:"Halloween heureux",
+        language:"French"
+      },
+      {
+        phrase:"K&egrave; kontan Halloween",
+        language:"Hatian Creole"
+      },
+      {
+        phrase:"Senang halloween",
+        language:"Indonesian"
+      },
+      {
+        phrase:"Felice Halloween",
+        language:"Italian"
+      },
+      {
+        phrase:"Gembira halloween",
+        language:"Malay"
+      },
+      {
+        phrase:"God allehelgensaften",
+        language:"Norweigan"
+      },
+      {
+        phrase:"Halloween fericit",
+        language:"Romanian"
+      },
+      {
+        phrase:"Feliz halloween",
+        language:"Spanish"
+      },
+      {
+        phrase:"Furaha halloween",
+        language:"Swahili"
+      },
+      {
+        phrase:"Lyckliga halloween",
+        language:"Swedish"
+      },
+      {
+        phrase:"Mutlu Halloween",
+        language:"Turkish"
+      }
+
+  ];
+    
+
+    $('#greetingButton').click(function(evt){
+      //define the containers of the info we target
+      var phrase = $('#translation p').text();
+      var spoopyGreeting = $('#spoopyGreeting').text();
+      //prevent browser's default action
+      evt.preventDefault();
+      //getting a new random number to attach to a phrase and setting a limit
+      var sourceLength = translateIt.length;
+      var randomNumber= Math.floor(Math.random()*sourceLength);
+      //set a new phrase
+      for(i=0;i<=sourceLength;i+=1){
+      var newphraseText = translateIt[randomNumber].phrase;
+      var newspoopyGreeting = translateIt[randomNumber].language;
+      //console.log(newphraseText,newspoopyGreeting);
+      var timeAnimation = 500;
+      var translation = $('#translation');
+      //fade out animation with callback
+      translation.fadeOut(timeAnimation, function(){
+        translation.html('');
+        translation.append('<p>'+newphraseText+'</p>'+'<p id="spoopyGreeting">'+'               '+newspoopyGreeting+'</p>');
+        
+        //fadein animation.
+        translation.fadeIn(timeAnimation);
+      });  
+      
+      break;
+    };
+  
+  });
+    
+    
+});
+
+</script>
+</body>
+</html>
