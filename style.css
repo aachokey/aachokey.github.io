@@ -76,7 +76,7 @@ h4 {
   font-size: 2em;
   color: #fff;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 h5 {
@@ -110,9 +110,13 @@ a {
 /*-----------Flex content-----------*/
 
 .flex-container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-flow: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .flex-item {
@@ -127,11 +131,7 @@ a {
 
 .flex-item p {
   color: white; 
-  font-size: 1em;
-}
-
-p.small {
-  font-size: .8em;
+  font-size: .9em;
 }
 
 .btn {
@@ -139,6 +139,10 @@ p.small {
   position: absolute;
   left: 0;
   bottom: 0;
+}
+
+.btn:hover {
+  color: ;
 }
 
 /*-----------Social account icons-----------*/
@@ -153,7 +157,6 @@ i p {
 }
 
 .social {
-  margin-top: 10px;
   width: 100%;
   text-align: center;
 }
