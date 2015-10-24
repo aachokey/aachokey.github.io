@@ -175,6 +175,7 @@ footer {
 
 .flex-item {
   position: relative;
+  flex-grow: 3;
   width: 200px;
   height: 200px;
   margin: 5px;
