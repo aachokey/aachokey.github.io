@@ -1,0 +1,14 @@
+<div class="flex-container">
+    {% for project in site.data.projects %}
+    <div class="flex-item" style="background: url({{ project.image }}); background-size:cover">
+        <a class="post-link" href="{{ project.url }}" target="_blank">
+          <div class="overlay gradient">
+            <div class="post-text">
+              <h4>{{ project.title }}</h4>
+              <p>{{ project.description }}</p>
+            </div>
+          </div>
+        </a>
+    </div>
+    {% endfor %}
+</div>

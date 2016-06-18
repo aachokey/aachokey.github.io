@@ -1,0 +1,9 @@
+<ul class="stories">
+
+	{% for story in site.data.stories %}
+	<li>
+		<a href="{{ story.url }}" target="_blank"><p>-{{ story.headline }}, <em>{{ story.outlet }}</em></p></a>
+	</li>
+  	{% endfor %}
+
+</ul>
