@@ -1,112 +1,30 @@
+---
+layout: null
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Aric Chokey | Data Journalist</title>
-    <description>Aric Chokey is a web storyteller.</description>
-    <link>aricchokey.com/</link>
-    <atom:link href="aricchokey.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Oct 2015 22:08:25 -0400</pubDate>
-    <lastBuildDate>Sun, 18 Oct 2015 22:08:25 -0400</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
-    
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
+    {% for post in site.posts limit:10 %}
       <item>
-        <title>Bike ride map</title>
-        <description>
-</description>
-        <pubDate>Wed, 14 Oct 2015 23:14:39 -0400</pubDate>
-        <link>aricchokey.com/2015/10/14/bikeride.html</link>
-        <guid isPermaLink="true">aricchokey.com/2015/10/14/bikeride.html</guid>
-        
-        
+        <title>{{ post.title | xml_escape }}</title>
+        <description>{{ post.content | xml_escape }}</description>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        {% for tag in post.tags %}
+        <category>{{ tag | xml_escape }}</category>
+        {% endfor %}
+        {% for cat in post.categories %}
+        <category>{{ cat | xml_escape }}</category>
+        {% endfor %}
       </item>
-    
-      <item>
-        <title>Ball State&#39;s new president</title>
-        <description>
-</description>
-        <pubDate>Wed, 14 Oct 2015 23:14:28 -0400</pubDate>
-        <link>aricchokey.com/2015/10/14/ferguson.html</link>
-        <guid isPermaLink="true">aricchokey.com/2015/10/14/ferguson.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Courts website</title>
-        <description>
-</description>
-        <pubDate>Wed, 14 Oct 2015 23:14:28 -0400</pubDate>
-        <link>aricchokey.com/2015/10/14/courts.html</link>
-        <guid isPermaLink="true">aricchokey.com/2015/10/14/courts.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Natural amenities</title>
-        <description>
-</description>
-        <pubDate>Wed, 14 Oct 2015 23:14:28 -0400</pubDate>
-        <link>aricchokey.com/2015/10/14/amenities.html</link>
-        <guid isPermaLink="true">aricchokey.com/2015/10/14/amenities.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Indiana median income</title>
-        <description>
-</description>
-        <pubDate>Wed, 14 Oct 2015 23:14:27 -0400</pubDate>
-        <link>aricchokey.com/2015/10/14/indianaincome.html</link>
-        <guid isPermaLink="true">aricchokey.com/2015/10/14/indianaincome.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>U.S. GDP growth</title>
-        <description>
-</description>
-        <pubDate>Wed, 14 Oct 2015 23:14:27 -0400</pubDate>
-        <link>aricchokey.com/2015/10/14/gdp.html</link>
-        <guid isPermaLink="true">aricchokey.com/2015/10/14/gdp.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>U.S. job growth</title>
-        <description>
-</description>
-        <pubDate>Wed, 14 Oct 2015 23:14:27 -0400</pubDate>
-        <link>aricchokey.com/2015/10/14/USjobs.html</link>
-        <guid isPermaLink="true">aricchokey.com/2015/10/14/USjobs.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Employment analysis</title>
-        <description>
-</description>
-        <pubDate>Wed, 14 Oct 2015 23:14:21 -0400</pubDate>
-        <link>aricchokey.com/2015/10/14/groomsemployment.html</link>
-        <guid isPermaLink="true">aricchokey.com/2015/10/14/groomsemployment.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Constituent Surveys</title>
-        <description>
-</description>
-        <pubDate>Wed, 14 Oct 2015 23:14:20 -0400</pubDate>
-        <link>aricchokey.com/2015/10/14/surveys.html</link>
-        <guid isPermaLink="true">aricchokey.com/2015/10/14/surveys.html</guid>
-        
-        
-      </item>
-    
+    {% endfor %}
   </channel>
 </rss>
