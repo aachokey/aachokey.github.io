@@ -9,12 +9,12 @@
 title: Aric Chokey | Data Journalist and Developer
 email: achokey21@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Aric Chokey is a web storyteller.
+  Aric Chokey is a journalist and developer.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "aricchokey.com" # the base hostname & protocol for your site
 twitter_username: aric_chokey
 github_username:  aachokey
-resume_link: "https://drive.google.com/file/d/0Byz-aBzt1W2ldUtMRWk3c0ktMG8/view?usp=sharing"
+resume_link: "https://drive.google.com/open?id=0Byz-aBzt1W2lUnhSd1lsTkJ1Skk"
 
 # Build settings
 markdown: kramdown
