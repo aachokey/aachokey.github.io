@@ -14,7 +14,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "aricchokey.com" # the base hostname & protocol for your site
 twitter_username: aric_chokey
 github_username:  aachokey
-resume_link: "https://drive.google.com/file/d/1bTSpUypmBurnhI9rXf9Gzw2mrbOgENbQ"
+resume_link: "mailto:achokey21@gmail.com?subject=Hi Aric, I'd like to see your resume"
 
 # Build settings
 markdown: kramdown
