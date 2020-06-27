@@ -2,7 +2,7 @@
 
 	{% for story in site.data.stories %}
 	<li>
-		<a href="{{ story.url }}" target="_blank"><p>{{ story.headline }}</p>
+		<p><a href="{{ story.url }}" target="_blank">{{ story['titletext'] }}</a>
 	</li>
   	{% endfor %}
 
