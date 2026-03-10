@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Mono:wght@300;400;500&display=swap");
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+
+
+/* Custom global styles */
+:root {
+    --color-primary: #3b82f6;
+    --color-secondary: #10b981;
+    --color-black: #1E1E1E;
+    --color-forest-green: #606c38;
+    --color-dark-green: #283618;
+    --color-cream: #efeddf;
+    --color-light-blue: #8fafc2;
+    --color-dark-blue:#2e3d4f;
+    --color-orange: #c4893a;
+    --color-cool-gray: #8fafc2;
+    --color-gray: #f0f0f0;
+  }
+
+  .color-orange {
+    color: var(--color-orange)
+  }
+  
+  body {
+    font-family: "DM Mono", monospace;
+    background-color: var(--color-gray);
+  }
+
+  h1, h2, h3, h4, h5 {
+    color: var(--color-black);
+    font-family: "Playfair Display", Georgia, serif;
+  }
+
+  h1 {
+    /* font-size: clamp(3.5rem, 8vw, 6rem); */
+    font-weight: 900;
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+  }
+
+  a {
+    color: var(--color-orange);
+    text-decoration: underline;
+  }
+  
+  h2, h3, h4 {
+    color: var(--color-light-blue)
+  }
+
+  h2 a {
+    color: var(--color-light-blue);
+    text-decoration: none;
+    border-bottom: 2px solid var(--color-orange);
+  }
+
+  #social-icons svg {
+    fill: var(--color-black);
+    opacity: 0.7;
+  }
+
+  #linkedin-icon:hover {
+    fill: #0a66c2;
+    transition: fill 0.2s ease-in-out;
+  }
+
+  #bluesky-icon:hover {
+    fill: rgb(0, 106, 255);
+    transition: fill 0.2s ease-in-out;
+  }
+
+  #github-icon:hover {
+    fill: rgb(66, 66, 66);
+    transition: fill 0.2s ease-in-out;
+  }
+
+  .card-link {
+    text-decoration: none;
+  }
+
+  .card-link:hover {
+    filter: opacity(60%);
+    transition: all .2s ease-out;
+  }
+
+  .bg-blue {
+    background-color: var(--color-light-blue);
+    color: var(--color-white)
+  }
+
+  .story-item {
+    border-left: 1.5px dashed #00000049;
+    padding-left: 8px;
+    
+  }
+
+  #resume {
+    /* padding: 2rem 0; */
+    padding: 0 2rem 0 5px;
+    /* margin: -1.35rem 0 1em; */
+  }
+
+  #resume li {
+    position:relative;
+    min-height:10px;
+    padding:0 0 8rem 10%;
+    border-left: 1px dashed #00000049;
+    
+  }
+
+  #resume li:before {
+    background: var(--color-cool-gray);
+    border-left: 5px solid var(--color-cool-gray);
+    border-radius: 100%;
+    content: "";
+    display: block;
+    height: 15px;
+    position: absolute;
+    top: 0; left: -8px;
+    width: 15px;
+    transition: background 0.3s ease-in-out,
+            border 0.3s ease-in-out;
+  }
+
+  .resume-content {
+    padding-top: 20px;
+  }
+
+  .resume-content h3 {
+    position:absolute;
+    margin-top: -32px;
+  }
+
+
+  /* --- Overlay and Container Styles --- */
+.lightbox-target {
+  /* Hidden by default */
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8); /* Dim background */
+  z-index: 10;
+  /* Optional smooth transition */
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Show the lightbox when the anchor target is active */
+.lightbox-target:target {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* --- Content (Image) Styling --- */
+.lightbox-target img {
+  /* Center the image */
+  max-width: 90%;
+  max-height: 90%;
+  display: block;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* --- Close Button Styling (Optional) --- */
+.lightbox-target .close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  /* Ensure close button is above the image if needed */
+  z-index: 11; 
+}
