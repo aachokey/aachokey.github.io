@@ -38,19 +38,19 @@
 	<div class="flex-col">
 
 		<hr>
-		<div class="mt-5 flex justify-between">
+		<div class="mt-5 justify-items-center sm:justify-items-center lg:flex lg:justify-between">
 
 			<div class="flex">
-				<p class="text-gray-400">© 2026 Aric Chokey</p>
-			</div>
-
-			<div class="flex justify-between">
 				<div class="flex gap-3">
 					<p class="text-gray-400"><a href="https://bsky.app/profile/aricchokey.bsky.social" target="_blank">Bluesky</a></p>
 					<p class="text-gray-400"><a href="https://github.com/aachokey" target="_blank">GitHub</a></p>
 					<p class="text-gray-400"><a href="https://www.linkedin.com/in/aricchokey/" target="_blank">LinkedIn</a></p>
 				</div>
 			</div>
+			<div class="flex mt-5 md:mt-5 lg:mt-0">
+				<p class="text-gray-400">© 2026 Aric Chokey</p>
+			</div>
+
 
 		</div>
 	</div>
