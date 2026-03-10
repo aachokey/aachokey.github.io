@@ -44,7 +44,8 @@
     <ul id="resume" class="mt-14">
         <li>
             <div class="resume-content">
-                <h3 class="text-xl font-bold">2021 - Present: OpenSecrets</h3>
+                <h4 class="text-xl font-bold">2021 - Present</h4>
+                <h3 class="text-xl font-bold">OpenSecrets</h3>
                 <p class="color-orange">Python developer</p>
                 <p>Built the ingestion pipelines that collect money-in-politics data at scale: federal and state campaign finance, official financial disclosures, and lobbying records from 50+ jurisdictions. Helped bring that data together through integration of OpenSecrets and FollowTheMoney.org.</p>
 
@@ -53,7 +54,8 @@
         </li>
         <li>
             <div class="resume-content">
-                <h3 class="text-xl font-bold">2017 - 2021: South Florida Sun Sentinel</h3>
+                <h4 class="text-xl font-bold">2017 - 2021</h4>
+                <h3 class="text-xl font-bold">South Florida Sun Sentinel</h3>
                 <p class="color-orange">2018 - 2021: Data reporter</p>
                 <p>Reported data-driven stories on topics such as state politics, public health, immigration, campaign finance and
                     crime using analysis tools in Python.
@@ -68,7 +70,8 @@
         </li>
         <li>
             <div class="resume-content">
-                <h3 class="text-xl font-bold">2016: The Associated Press</h3>
+                <h4 class="text-xl font-bold">2016</h4>
+                <h3 class="text-xl font-bold">The Associated Press</h3>
                 <p class="color-orange">Legislative reporter</p>
                 <p>Covered the Indiana Legislature, then-Gov. Mike
                     Pence, and the 2016 presidential primary elections.
@@ -78,14 +81,16 @@
         </li>
         <li>
             <div class="resume-content">
-                <h3 class="text-xl font-bold">2015: Tampa Bay Times</h3>
+                <h4 class="text-xl font-bold">2015</h4>
+                <h3 class="text-xl font-bold">Tampa Bay Times</h3>
                 <p class="color-orange">Web intern</p>
                 <p>Helped with interactive story development, social media engagement, and copy editing.</p>
             </div>
         </li>
         <li>
             <div class="resume-content">
-                <h3 class="text-xl font-bold">2012-2015: Ball State Daily News</h3>
+                <h4 class="text-xl font-bold">2012-2015</h4>
+                <h3 class="text-xl font-bold">The Ball State Daily News</h3>
                 <p class="color-orange">2015: News editor</p>
                 <p>Edited the news section's copy while managing a team of reporters. Planned and collaborated on coverage of both daily and long-term enterprise stories.</p>
                 <p class="color-orange mt-4">2012-2014: Reporter</p>
@@ -103,4 +108,41 @@
     #selfie:hover {
         filter:none;
     }
+
+    #resume {
+    /* padding: 2rem 0; */
+    padding: 0 2rem 0 5px;
+    /* margin: -1.35rem 0 1em; */
+  }
+
+  #resume li {
+    position:relative;
+    min-height:10px;
+    padding:0 0 8rem 10%;
+    border-left: 1px dashed #00000049;
+    
+  }
+
+  #resume li:before {
+    background: var(--color-cool-gray);
+    border-left: 5px solid var(--color-cool-gray);
+    border-radius: 100%;
+    content: "";
+    display: block;
+    height: 15px;
+    position: absolute;
+    top: 0; left: -8px;
+    width: 15px;
+    transition: background 0.3s ease-in-out,
+            border 0.3s ease-in-out;
+  }
+
+  .resume-content {
+    padding-top: 20px;
+  }
+
+  .resume-content h4 {
+    position:absolute;
+    margin-top: -32px;
+  }
 </style>

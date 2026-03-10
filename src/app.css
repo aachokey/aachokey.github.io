@@ -95,42 +95,7 @@
     
   }
 
-  #resume {
-    /* padding: 2rem 0; */
-    padding: 0 2rem 0 5px;
-    /* margin: -1.35rem 0 1em; */
-  }
 
-  #resume li {
-    position:relative;
-    min-height:10px;
-    padding:0 0 8rem 10%;
-    border-left: 1px dashed #00000049;
-    
-  }
-
-  #resume li:before {
-    background: var(--color-cool-gray);
-    border-left: 5px solid var(--color-cool-gray);
-    border-radius: 100%;
-    content: "";
-    display: block;
-    height: 15px;
-    position: absolute;
-    top: 0; left: -8px;
-    width: 15px;
-    transition: background 0.3s ease-in-out,
-            border 0.3s ease-in-out;
-  }
-
-  .resume-content {
-    padding-top: 20px;
-  }
-
-  .resume-content h3 {
-    position:absolute;
-    margin-top: -32px;
-  }
 
 
   /* --- Overlay and Container Styles --- */
