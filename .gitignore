@@ -3,3 +3,14 @@ _site
 .jekyll-metadata
 .DS_Store
 _data/.DS_Store
+
+# Node / SvelteKit
+node_modules/
+.svelte-kit/
+build/
+dist/
+
+# Local environment files
+.env
+.env.*
+!.env.example
