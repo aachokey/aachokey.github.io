@@ -153,7 +153,7 @@ export const projects = [
 			{
 				image: "../images/unprepared3.png",
 				alt: "",
-				graf: "With so many multimedia elements to choose from, we widdled down the list to the most poignant and chose a design that was minimalistic to let the elements stand on their own with minimal styling."
+				graf: "With so many multimedia elements to choose from, we narrowed down the list to the most poignant and chose a design that was minimalistic to let the elements stand on their own with minimal styling."
 			},
 		]
 	},
