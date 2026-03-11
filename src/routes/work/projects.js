@@ -7,7 +7,7 @@ export const projects = [
 		slug: "donor-lookup",
 		tags: ["Python", "ElasticSearch", "Docker"],
 		is_displayed: true,
-		about: "OpenSecrets tracks who funds federal campaigns using FEC filings. The project requirer regular updates, which involves moving millions of rows of data from staging database tables. I built the pipeline that ingests those transactions, indexes them in ElasticSearch, and keeps the Donor Lookup tool updated with new data."
+		about: "OpenSecrets tracks who funds federal campaigns using FEC filings. The project requires regular updates, which involve moving millions of rows of data from staging database tables. I built the pipeline that ingests those transactions, indexes them in ElasticSearch, and keeps the Donor Lookup tool updated with new data."
 	},
 	{
 		title: "State campaign finance framework",
@@ -27,7 +27,7 @@ export const projects = [
 			{
 				image: "../images/mt-log.png",
 				alt: "Chart of daily COVID-19 cases in Florida",
-				graf: "With a unified schema in place, I was then able to start making state-specific scrapers using a shareed source of truth for the output data. This also helps guide other contributors who may add or edit scrapers in the future, aiding in the maintainability of the pipeline."
+				graf: "With a unified schema in place, I was then able to start making state-specific scrapers using a shared source of truth for the output data. This also helps guide other contributors who may add or edit scrapers in the future, aiding in the maintainability of the pipeline."
 			},
 			{
 				image: "../images/co-os-page.png",
@@ -64,7 +64,7 @@ export const projects = [
 		slug: "florida-covid-dashboard",
 		tags: ["JavaScript", "d3.js", "Python"],
 		is_displayed: true,
-		about: "As the COVID-19 pandemic unfolded, our newsroom scrambled to report scope and severity of its spreadin Florida. I made a Python-based scraper system that collected daily data on new cases, deaths, outbreak hotspots, and tools to help readers find access to vaccines. Partnering with Orlando Sentinel data reporter Adelaide Chen, we put the data into auto-updating charts on our newspapers' respective websites. Note: This project is now defunct due to changes in the newspaper's website, so it does not display anymore.",
+		about: "As the COVID-19 pandemic unfolded, our newsroom scrambled to report scope and severity of its spread in Florida. I made a Python-based scraper system that collected daily data on new cases, deaths, outbreak hotspots, and tools to help readers find access to vaccines. Partnering with Orlando Sentinel data reporter Adelaide Chen, we put the data into auto-updating charts on our newspapers' respective websites. Note: This project is now defunct due to changes in the newspaper's website, so it does not display anymore.",
 		photografs: [
 			{
 				image: "../images/covid-tracker-daily-cases.png",
@@ -79,7 +79,7 @@ export const projects = [
 			{
 				image: "../images/covid-county-breakout.jpeg",
 				alt: "",
-				graf: "The dashboard allowed users to drill down to see how their own county fared specifically. The data weas updated daily and gave readers the latest snapshots of how the pandemic was unfolding in their community."
+				graf: "The dashboard allowed users to drill down to see how their own county fared specifically. The data updated daily and gave readers the latest snapshots of how the pandemic was unfolding in their community."
 			},
 			{
 				image: "../images/covid-tracker-1.png",
@@ -136,14 +136,19 @@ export const projects = [
 				award_org: "Education Writer's Association",
 				link: "https://ewa.org/awards/investigative-public-service/2018-public-service-medium-staff-winner"
 			},
+			{
+				name: "First Place News Interactive",
+				award_org: "FSNE",
+				link: "https://floridamediacontests.com/wp-content/uploads/2019/07/FSNE-2019.pdf"
+			},
 		],
 		is_displayed: true,
-		about: "After ammassing a years-worth of police radio comms, photos, videos and testimonies from people who were present, our newsroom at the South Florida Sun Sentinel wanted to put it all together to get a look at what went wrong during the Parkland school shooting. Working closely with many reporters throughout the nerwsroom, I designed and built a second-by-second look at the failures that showed clearly how unprepared law enforcement and school officials were for the tragedy.",
+		about: "After ammassing a years-worth of police radio comms, photos, videos, public records, and testimonies from people who were present, our newsroom at the South Florida Sun Sentinel wanted to put it all together to get a look at what went wrong during the Parkland school shooting. Working closely with many reporters throughout the newsroom, I designed and built a second-by-second look at the failures that showed clearly how unprepared law enforcement and school officials were for the tragedy.",
 		photografs: [
 			{
 				image: "../images/unprepared1.png",
 				alt: "",
-				graf: "First, I made a spreadsheet where we could collaborate on the key moments we wanted to include. Part of that also meant going through the hundreds of photos, videos, police radio calls, and testimonies from the state's investigating commission to map out what multimedia elements we had to work with."
+				graf: "First, I made a spreadsheet where we could collaborate on the key moments we wanted to include. Part of that also meant going through the hundreds of photos, videos, police radio calls, and testimonies from the state's investigating commission to map out what multimedia elements we had available to work with."
 			},
 			{
 				image: "../images/unprepared2.png",
@@ -165,7 +170,7 @@ export const projects = [
 		slug: "noaa-watch-and-warning-tracker",
 		tags: ["d3.js", "AWS Lambda", "Python"],
 		is_displayed: true,
-		about: "Hurricanes and severe weather were frequent topics of coverage, at the South Florida Sun Sentinel. I dug into NOAA data to create the paper's real-time hurricane tracker and weather alert maps. Using Python, the hurricane tracker pulled “spaghetti” models and plotted them into a map so. Readers got real-time, visual updates on where storms were and where they might have been heading. A second data pipeline pulled geodata for any weather alerts from the National Weather Service (such as flood warnings, storm surge warnings, etc.) and put them into a map, while also allowing readers could see if their exact address was under a watch or warning.",
+		about: "Hurricanes and severe weather were frequent topics of coverage at the South Florida Sun Sentinel. I dug into NOAA data to create the paper's real-time hurricane tracker and weather alert maps. Using Python, the hurricane tracker pulled “spaghetti” models and plotted them into a map. Readers got real-time, visual updates on where storms were and where they might have been heading. A second data pipeline pulled geodata for any weather alerts from the National Weather Service (such as flood warnings, storm surge warnings, etc.) and put them into a map, while also allowing readers to see if their exact address was under a watch or warning.",
 		photografs: [
 			{
 				image: "../images/hurricane-tracker.png",
@@ -197,7 +202,7 @@ export const projects = [
 		slug: "election-night-results",
 		tags: ["Django", "React"],
 		is_displayed: true,
-		about: "I was recruited to help build an election night result reporting system with the developers of Tribune Publishing. We created a Django-based in which I built scrapers that fetched results from the election offices of each county we covered, as well as the state of Florida. The app fed the data to charts that lived on a special election night section for both the Sun Sentinel and the Orlando Sentinel. The app also generated modular charts that could be embedded directly in stories about specific races in order to aid breaking news coverage of the results."
+		about: "After previous work scraping election result data from counties, I was recruited to help build an election night result reporting system with the developers of Tribune Publishing. We created a Django-based in which I built scrapers that fetched results from the election offices of each county we covered, as well as the state of Florida. The app fed the data to charts that lived on a special election night section for both the Sun Sentinel and the Orlando Sentinel. The app also generated modular charts that could be embedded directly in stories about specific races in order to aid breaking news coverage of the results."
 	},
 	{
 		title: "Florida Voter registration",
@@ -207,7 +212,7 @@ export const projects = [
 		slug: "florida-voter-registrations",
 		tags: ["d3.js", "Python", "AWS Lambda"],
 		is_displayed: true,
-		about: "After our state politics team expressed interest in tracking voter registration trends, I wanted to make an auto-updating dashboard to display the latest updates for states and counties. I created Python scripts to get the data, and scheduled them to run with Amazon Lambda. With the help of our data editor, we came up with a minimalistic page to show some high-level views of the latest figures."
+		about: "After our state politics team expressed interest in tracking voter registration trends, I wanted to make an auto-updating dashboard to display the latest updates for states and counties. I created Python scripts to get the data, and scheduled them to run with Amazon Lambda. With the help of our data editor John Maines, we came up with a minimalistic page to show some high-level views of the latest figures."
 	},
 	{
 		title: "Nikolas Cruz: The violent path of a teenage killer",
@@ -237,7 +242,7 @@ export const projects = [
 		slug: "voter-guide-2018",
 		tags: ["Flask"],
 		is_displayed: true,
-		about: "Ahead of the 2018 midterms, myself and a news designer worked with the Sun Sentinel's politcs team to collect questionnaire responses from local candidates and built a voter guide."
+		about: "Ahead of the 2018 midterms, myself and a news designer worked with the Sun Sentinel's politcs team to collect questionnaire responses from local candidates and built a guide for residents to see where candidates stood on specific local issues."
 	},
 	{
 		title: "Doctor Discipline",
@@ -247,7 +252,7 @@ export const projects = [
 		slug: "doctor-discipline",
 		tags: ["Django"],
 		is_displayed: true,
-        about: "I was part of a team that developed a Django-based searchable database that allowed readers to lookup their doctor to see their medical malpractice claim history. My part involved writing the Python script to fetch the data and feed it into our data model, while also contributing to the front-end data display and search functions. This was my first production Django project."
+        about: "I was part of a team that developed a Django-based searchable database that allowed readers to look up their doctor to see their medical malpractice claim history. My part involved writing the Python script to fetch the data and feed it into our data model, while also contributing to the front-end data display and search functions. This was my first production Django project."
 	},
 	{
 		title: "INCapitolEdits bot",

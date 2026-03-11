@@ -14,7 +14,7 @@ export const stories = [
     {
         "headline": "Voters beware: You have no idea who's behind that petition they want you to sign",
         "date": "",
-        "description": "An investigation into the lucrative industry of ballot measure signature collection and the key players bankrolling it.",
+        "description": "An investigation into the lucrative industry of ballot measure signature collection and the dark money organizations bankrolling it.",
         "url": "https://www.sun-sentinel.com/news/politics/fl-ne-petition-signature-gathering-industry-20191122-rofgdccdgvbmzpjqltfueobeza-story.html#nt=outfit",
     },
     {
