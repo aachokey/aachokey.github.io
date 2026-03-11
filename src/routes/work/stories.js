@@ -18,6 +18,12 @@ export const stories = [
         "url": "https://www.sun-sentinel.com/news/politics/fl-ne-petition-signature-gathering-industry-20191122-rofgdccdgvbmzpjqltfueobeza-story.html#nt=outfit",
     },
     {
+        "headline": "5.6 billion opioid pills flooded the state, and rogue South Florida doctors helped get them on the streets",
+        "date": "",
+        "description": "South Florida was known as the Oxy Express during the opioid epidemic, so we analyzed pain pill prescription data to explain the scope that doctors in the region played in putting pills on the streets.",
+        "url": "https://www.sun-sentinel.com/2019/07/27/56-billion-opioid-pills-flooded-the-state-and-rogue-south-florida-doctors-helped-get-them-on-the-streets/",
+    },
+    {
         "headline": "How Hurricane Dorian earned a place among the most historic Atlantic storms",
         "date": "",
         "description": "We analyzed historical hurricane data from the National Oceanic and Atmospheric Administration to compare Hurricane Dorian to past storms.",
