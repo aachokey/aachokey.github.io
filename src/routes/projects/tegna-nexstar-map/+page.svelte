@@ -105,7 +105,7 @@
 	<p class="text-lg mt-4">
 		Following the March merger of TEGNA and Nexstar, I was curious about the
 		scope of the merger, where each company has stations and news markets
-		where the companies overlap.
+		where the companies overlap. The data in the map represents station ownership pre-merger.
 	</p>
 
 	<section class="mt-10">

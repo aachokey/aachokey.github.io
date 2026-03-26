@@ -1,1 +1,247 @@
-[{"city_state":"Abilene, TX","lat":32.44645,"long":-99.7384,"nexstar_call_signs":"KRBC, KTAB","tegna_call_signs":"KXVA"},{"city_state":"Austin, TX","lat":30.271129,"long":-97.7522,"nexstar_call_signs":"KBVO, KNVA, KXAN","tegna_call_signs":"KVUE"},{"city_state":"Buffalo, NY","lat":42.886416,"long":-78.8487,"nexstar_call_signs":"WIVB, WNLO","tegna_call_signs":"WGRZ"},{"city_state":"Charlotte, NC","lat":35.227209,"long":-80.8303,"nexstar_call_signs":"WJZY, WMYT","tegna_call_signs":"WCNC"},{"city_state":"Cleveland, OH","lat":41.499657,"long":-81.6805,"nexstar_call_signs":"WJW","tegna_call_signs":"WKYC"},{"city_state":"Columbus, OH","lat":39.96226,"long":-82.9855,"nexstar_call_signs":"WCMH","tegna_call_signs":"WBNS, WBNS-AM, WBNS-FM"},{"city_state":"Dallas, TX","lat":32.74883,"long":-96.7667,"nexstar_call_signs":"KDAF","tegna_call_signs":"KFAA, WFAA"},{"city_state":"Denver, CO","lat":39.739236,"long":-104.8758,"nexstar_call_signs":"KDVR, KWGN","tegna_call_signs":"KTVD, KUSA"},{"city_state":"Des Moines, IA","lat":41.586865,"long":-93.6105,"nexstar_call_signs":"WHO","tegna_call_signs":"KCWI, WOI"},{"city_state":"Grand Rapids, MI","lat":42.963242,"long":-85.6562,"nexstar_call_signs":"WOOD, WOTV, WXSP-CD","tegna_call_signs":"WZZM"},{"city_state":"Greensboro, NC","lat":36.072635,"long":-79.8271,"nexstar_call_signs":"WGHP","tegna_call_signs":"WFMY"},{"city_state":"Harrisburg, PA","lat":40.266311,"long":-76.8843,"nexstar_call_signs":"WHTM","tegna_call_signs":"WPMT"},{"city_state":"Hartford, CT","lat":41.41281,"long":-72.6834,"nexstar_call_signs":"WCTX","tegna_call_signs":"WCCT, WTIC"},{"city_state":"Houston, TX","lat":29.758938,"long":-95.3885,"nexstar_call_signs":"KIAH","tegna_call_signs":"KHOU, KTBU"},{"city_state":"Huntsville, AL","lat":34.729847,"long":-86.6412,"nexstar_call_signs":"WHDF, WHNT","tegna_call_signs":"WZDX"},{"city_state":"Indianapolis, IN","lat":39.768333,"long":-86.1458,"nexstar_call_signs":"WTTV, WXIN","tegna_call_signs":"WTHR"},{"city_state":"Knoxville, TN","lat":35.960395,"long":-83.9496,"nexstar_call_signs":"WATE","tegna_call_signs":"WBIR"},{"city_state":"Little Rock, AR","lat":34.746507,"long":-92.3577,"nexstar_call_signs":"KARK, KARZ, KLRT","tegna_call_signs":"KTHV"},{"city_state":"Memphis, TN","lat":35.146025,"long":-89.9663,"nexstar_call_signs":"WREG","tegna_call_signs":"WATN, WLMT"},{"city_state":"Moline, IL","lat":41.396437,"long":-90.492,"nexstar_call_signs":"WHBF","tegna_call_signs":"WQAD"},{"city_state":"New Orleans, LA","lat":29.956142,"long":-89.9288,"nexstar_call_signs":"WGNO, WNOL","tegna_call_signs":"WUPL, WWL"},{"city_state":"New York, NY","lat":40.712728,"long":-73.9249,"nexstar_call_signs":"WPIX","tegna_call_signs":"Premion"},{"city_state":"Norfolk, VA","lat":36.84937,"long":-76.259,"nexstar_call_signs":"WAVY, WVBT","tegna_call_signs":"WVEC"},{"city_state":"Odessa, TX","lat":31.942501,"long":-102.3448,"nexstar_call_signs":"KPEJ","tegna_call_signs":"KWES"},{"city_state":"Phoenix, AZ","lat":33.448437,"long":-112.0892,"nexstar_call_signs":"KAZT","tegna_call_signs":"KPNX"},{"city_state":"Portland, OR","lat":45.520247,"long":-122.65,"nexstar_call_signs":"KOIN, KRCW","tegna_call_signs":"KGW"},{"city_state":"Sacramento, CA","lat":38.581061,"long":-121.4685,"nexstar_call_signs":"KTXL","tegna_call_signs":"KXTV"},{"city_state":"San Angelo, TX","lat":31.464969,"long":-100.4504,"nexstar_call_signs":"KLST, KSAN","tegna_call_signs":"KIDY, KIDY\/KXVA"},{"city_state":"San Diego, CA","lat":32.71742,"long":-117.1222,"nexstar_call_signs":"KSWB, KUSI","tegna_call_signs":"KFMB"},{"city_state":"St. Louis, MO","lat":38.625406,"long":-90.2451,"nexstar_call_signs":"KPLR, KTVI","tegna_call_signs":"KSDK"},{"city_state":"Tampa, FL","lat":27.944985,"long":-82.4447,"nexstar_call_signs":"WFLA, WSNN-LD, WTTA","tegna_call_signs":"WTSP"},{"city_state":"Tyler, TX","lat":32.556805,"long":-95.3062,"nexstar_call_signs":"KETK, KFXK, KTPN-LD","tegna_call_signs":"KYTX"},{"city_state":"Waco, TX","lat":31.54919,"long":-97.1882,"nexstar_call_signs":"KWKT","tegna_call_signs":"KCEN"},{"city_state":"Washington, DC","lat":38.895037,"long":-77.0163,"nexstar_call_signs":"WDCW, WDVM","tegna_call_signs":"WUSA"},{"city_state":"Wilkes Barre, PA","lat":41.246482,"long":-75.88175101,"nexstar_call_signs":"WBRE, WYOU","tegna_call_signs":"WNEP"}]
+[
+    {
+        "city_state": "Abilene, TX",
+        "lat": 32.44645,
+        "long": -99.7384,
+        "nexstar_call_signs": "KRBC, KTAB",
+        "tegna_call_signs": "KXVA"
+    },
+    {
+        "city_state": "Austin, TX",
+        "lat": 30.271129,
+        "long": -97.7522,
+        "nexstar_call_signs": "KBVO, KNVA, KXAN",
+        "tegna_call_signs": "KVUE"
+    },
+    {
+        "city_state": "Buffalo, NY",
+        "lat": 42.9018,
+        "long": -78.8487,
+        "nexstar_call_signs": "WIVB, WNLO",
+        "tegna_call_signs": "WGRZ"
+    },
+    {
+        "city_state": "Charlotte, NC",
+        "lat": 35.227209,
+        "long": -80.8303,
+        "nexstar_call_signs": "WJZY, WMYT",
+        "tegna_call_signs": "WCNC"
+    },
+    {
+        "city_state": "Cleveland, OH",
+        "lat": 41.499657,
+        "long": -81.6805,
+        "nexstar_call_signs": "WJW",
+        "tegna_call_signs": "WKYC"
+    },
+    {
+        "city_state": "Columbus, OH",
+        "lat": 39.96226,
+        "long": -82.9855,
+        "nexstar_call_signs": "WCMH",
+        "tegna_call_signs": "WBNS, WBNS-AM, WBNS-FM"
+    },
+    {
+        "city_state": "Dallas, TX",
+        "lat": 32.74883,
+        "long": -96.7667,
+        "nexstar_call_signs": "KDAF",
+        "tegna_call_signs": "KFAA, WFAA"
+    },
+    {
+        "city_state": "Denver, CO",
+        "lat": 39.739236,
+        "long": -104.8758,
+        "nexstar_call_signs": "KDVR, KWGN",
+        "tegna_call_signs": "KTVD, KUSA"
+    },
+    {
+        "city_state": "Des Moines, IA",
+        "lat": 41.586865,
+        "long": -93.6105,
+        "nexstar_call_signs": "WHO",
+        "tegna_call_signs": "KCWI, WOI"
+    },
+    {
+        "city_state": "Grand Rapids, MI",
+        "lat": 42.963242,
+        "long": -85.6562,
+        "nexstar_call_signs": "WOOD, WOTV, WXSP-CD",
+        "tegna_call_signs": "WZZM"
+    },
+    {
+        "city_state": "Greensboro, NC",
+        "lat": 36.072635,
+        "long": -79.8271,
+        "nexstar_call_signs": "WGHP",
+        "tegna_call_signs": "WFMY"
+    },
+    {
+        "city_state": "Harrisburg, PA",
+        "lat": 40.266311,
+        "long": -76.8843,
+        "nexstar_call_signs": "WHTM",
+        "tegna_call_signs": "WPMT"
+    },
+    {
+        "city_state": "Hartford, CT",
+        "lat": 41.41281,
+        "long": -72.6834,
+        "nexstar_call_signs": "WCTX",
+        "tegna_call_signs": "WCCT, WTIC"
+    },
+    {
+        "city_state": "Houston, TX",
+        "lat": 29.758938,
+        "long": -95.3885,
+        "nexstar_call_signs": "KIAH",
+        "tegna_call_signs": "KHOU, KTBU"
+    },
+    {
+        "city_state": "Huntsville, AL",
+        "lat": 34.729847,
+        "long": -86.6412,
+        "nexstar_call_signs": "WHDF, WHNT",
+        "tegna_call_signs": "WZDX"
+    },
+    {
+        "city_state": "Indianapolis, IN",
+        "lat": 39.768333,
+        "long": -86.1458,
+        "nexstar_call_signs": "WTTV, WXIN",
+        "tegna_call_signs": "WTHR"
+    },
+    {
+        "city_state": "Knoxville, TN",
+        "lat": 35.960395,
+        "long": -83.9496,
+        "nexstar_call_signs": "WATE",
+        "tegna_call_signs": "WBIR"
+    },
+    {
+        "city_state": "Little Rock, AR",
+        "lat": 34.746507,
+        "long": -92.3577,
+        "nexstar_call_signs": "KARK, KARZ, KLRT",
+        "tegna_call_signs": "KTHV"
+    },
+    {
+        "city_state": "Memphis, TN",
+        "lat": 35.146025,
+        "long": -89.9663,
+        "nexstar_call_signs": "WREG",
+        "tegna_call_signs": "WATN, WLMT"
+    },
+    {
+        "city_state": "Moline, IL",
+        "lat": 41.4821,
+        "long": -90.492,
+        "nexstar_call_signs": "WHBF",
+        "tegna_call_signs": "WQAD"
+    },
+    {
+        "city_state": "New Orleans, LA",
+        "lat": 30.0687,
+        "long": -89.9288,
+        "nexstar_call_signs": "WGNO, WNOL",
+        "tegna_call_signs": "WUPL, WWL"
+    },
+    {
+        "city_state": "New York, NY",
+        "lat": 40.712728,
+        "long": -73.9249,
+        "nexstar_call_signs": "WPIX",
+        "tegna_call_signs": "Premion"
+    },
+    {
+        "city_state": "Norfolk, VA",
+        "lat": 36.84937,
+        "long": -76.259,
+        "nexstar_call_signs": "WAVY, WVBT",
+        "tegna_call_signs": "WVEC"
+    },
+    {
+        "city_state": "Odessa, TX",
+        "lat": 31.8801,
+        "long": -102.3448,
+        "nexstar_call_signs": "KPEJ",
+        "tegna_call_signs": "KWES"
+    },
+    {
+        "city_state": "Phoenix, AZ",
+        "lat": 33.448437,
+        "long": -112.0892,
+        "nexstar_call_signs": "KAZT",
+        "tegna_call_signs": "KPNX"
+    },
+    {
+        "city_state": "Portland, OR",
+        "lat": 45.520247,
+        "long": -122.65,
+        "nexstar_call_signs": "KOIN, KRCW",
+        "tegna_call_signs": "KGW"
+    },
+    {
+        "city_state": "Sacramento, CA",
+        "lat": 38.581061,
+        "long": -121.4685,
+        "nexstar_call_signs": "KTXL",
+        "tegna_call_signs": "KXTV"
+    },
+    {
+        "city_state": "San Angelo, TX",
+        "lat": 31.464969,
+        "long": -100.4504,
+        "nexstar_call_signs": "KLST, KSAN",
+        "tegna_call_signs": "KIDY, KIDY\/KXVA"
+    },
+    {
+        "city_state": "San Diego, CA",
+        "lat": 32.71742,
+        "long": -117.1222,
+        "nexstar_call_signs": "KSWB, KUSI",
+        "tegna_call_signs": "KFMB"
+    },
+    {
+        "city_state": "St. Louis, MO",
+        "lat": 38.625406,
+        "long": -90.2451,
+        "nexstar_call_signs": "KPLR, KTVI",
+        "tegna_call_signs": "KSDK"
+    },
+    {
+        "city_state": "Tampa, FL",
+        "lat": 27.944985,
+        "long": -82.4447,
+        "nexstar_call_signs": "WFLA, WSNN-LD, WTTA",
+        "tegna_call_signs": "WTSP"
+    },
+    {
+        "city_state": "Tyler, TX",
+        "lat": 32.3184,
+        "long": -95.3062,
+        "nexstar_call_signs": "KETK, KFXK, KTPN-LD",
+        "tegna_call_signs": "KYTX"
+    },
+    {
+        "city_state": "Waco, TX",
+        "lat": 31.54919,
+        "long": -97.1882,
+        "nexstar_call_signs": "KWKT",
+        "tegna_call_signs": "KCEN"
+    },
+    {
+        "city_state": "Washington, DC",
+        "lat": 38.895037,
+        "long": -77.0163,
+        "nexstar_call_signs": "WDCW, WDVM",
+        "tegna_call_signs": "WUSA"
+    },
+    {
+        "city_state": "Wilkes Barre, PA",
+        "lat": 41.246482,
+        "long": -75.88175101,
+        "nexstar_call_signs": "WBRE, WYOU",
+        "tegna_call_signs": "WNEP"
+    }
+]
