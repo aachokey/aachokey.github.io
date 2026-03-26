@@ -14,7 +14,7 @@
     {
         "call_signs": "KVUE",
         "city_state": "Austin, TX",
-        "lat": 30.3005,
+        "lat": 30.271129,
         "lng": -97.7522
     },
     {
@@ -116,7 +116,7 @@
     {
         "call_signs": "WFMY",
         "city_state": "Greensboro, NC",
-        "lat": 36.0956,
+        "lat": 36.072635,
         "lng": -79.8271
     },
     {
@@ -134,7 +134,7 @@
     {
         "call_signs": "KHOU, KTBU",
         "city_state": "Houston, TX",
-        "lat": 29.786,
+        "lat": 29.758938,
         "lng": -95.3885
     },
     {

@@ -22,14 +22,14 @@
     },
     {
         "city_state": "Charlotte, NC",
-        "lat": 35.227209,
+        "lat": 35.2083,
         "long": -80.8303,
         "nexstar_call_signs": "WJZY, WMYT",
         "tegna_call_signs": "WCNC"
     },
     {
         "city_state": "Cleveland, OH",
-        "lat": 41.499657,
+        "lat": 41.4764,
         "long": -81.6805,
         "nexstar_call_signs": "WJW",
         "tegna_call_signs": "WKYC"
@@ -57,7 +57,7 @@
     },
     {
         "city_state": "Des Moines, IA",
-        "lat": 41.586865,
+        "lat": 41.5725,
         "long": -93.6105,
         "nexstar_call_signs": "WHO",
         "tegna_call_signs": "KCWI, WOI"
@@ -78,14 +78,14 @@
     },
     {
         "city_state": "Harrisburg, PA",
-        "lat": 40.266311,
+        "lat": 40.2752,
         "long": -76.8843,
         "nexstar_call_signs": "WHTM",
         "tegna_call_signs": "WPMT"
     },
     {
         "city_state": "Hartford, CT",
-        "lat": 41.41281,
+        "lat": 41.7661,
         "long": -72.6834,
         "nexstar_call_signs": "WCTX",
         "tegna_call_signs": "WCCT, WTIC"
@@ -99,7 +99,7 @@
     },
     {
         "city_state": "Huntsville, AL",
-        "lat": 34.729847,
+        "lat": 34.6981,
         "long": -86.6412,
         "nexstar_call_signs": "WHDF, WHNT",
         "tegna_call_signs": "WZDX"
@@ -155,7 +155,7 @@
     },
     {
         "city_state": "Norfolk, VA",
-        "lat": 36.84937,
+        "lat": 36.8945,
         "long": -76.259,
         "nexstar_call_signs": "WAVY, WVBT",
         "tegna_call_signs": "WVEC"
@@ -176,14 +176,14 @@
     },
     {
         "city_state": "Portland, OR",
-        "lat": 45.520247,
+        "lat": 45.5371,
         "long": -122.65,
         "nexstar_call_signs": "KOIN, KRCW",
         "tegna_call_signs": "KGW"
     },
     {
         "city_state": "Sacramento, CA",
-        "lat": 38.581061,
+        "lat": 38.5677,
         "long": -121.4685,
         "nexstar_call_signs": "KTXL",
         "tegna_call_signs": "KXTV"
@@ -225,14 +225,14 @@
     },
     {
         "city_state": "Waco, TX",
-        "lat": 31.54919,
+        "lat": 31.5599,
         "long": -97.1882,
         "nexstar_call_signs": "KWKT",
         "tegna_call_signs": "KCEN"
     },
     {
         "city_state": "Washington, DC",
-        "lat": 38.895037,
+        "lat": 38.9047,
         "long": -77.0163,
         "nexstar_call_signs": "WDCW, WDVM",
         "tegna_call_signs": "WUSA"

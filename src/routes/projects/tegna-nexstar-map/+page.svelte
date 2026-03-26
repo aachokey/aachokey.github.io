@@ -44,6 +44,8 @@
 				attribution: "© OpenStreetMap contributors",
 			},
 		).addTo(map);
+		map.createPane("overlapPane");
+		map.getPane("overlapPane").style.zIndex = "650";
 
 		// Load stations data
 		tegnaLayer = L.layerGroup();
@@ -87,7 +89,11 @@
 				.addTo(nexstarLayer);
 		}
 		for (const p of data.overlap) {
-			L.marker([p.lat, p.lng], {icon: overlapIcon})
+			L.marker([p.lat, p.lng], {
+				icon: overlapIcon,
+				pane: "overlapPane",
+				zIndexOffset: 1000,
+			})
 				.bindPopup(
 					`<strong>${p.cityState}</strong><br/><br/>` +
 						`TEGNA: ${p.tegnaCallSigns}<br/>` +
@@ -105,7 +111,7 @@
 	<p class="text-lg mt-4">
 		Following the March merger of TEGNA and Nexstar, I was curious about the
 		scope of the merger, where each company has stations and news markets
-		where the companies overlap. The data in the map represents station ownership pre-merger.
+		where the companies overlap.
 	</p>
 
 	<section class="mt-10">
@@ -146,7 +152,7 @@
 
 	<section>
 		<h2 class="text-2xl font-bold mt-12 space-y-4">Data sources</h2>
-		<p>Data comes from <a href="https://www.nexstar.tv/stations/" target="_blank">Nexstar's station map</a> and <a href="https://web.archive.org/web/20260320005639/https://www.tegna.com/brands/" target="_blank">TEGNA's now-defunct map of its brands</a>. Cities are not geocoded according to their exact location, but only to the city they are listed as being located in. Cities were geocoded with data from <a href="https://simplemaps.com/data/us-cities">Simplemaps.com</a>.</p>
+		<p>The data in the map represents station ownership pre-merger and comes from <a href="https://www.nexstar.tv/stations/" target="_blank">Nexstar's station map</a> and <a href="https://web.archive.org/web/20260320005639/https://www.tegna.com/brands/" target="_blank">TEGNA's now-defunct map of its brands</a>. Cities are not geocoded according to their exact location, but only to the city they are listed as being located in. Cities were geocoded with data from <a href="https://simplemaps.com/data/us-cities">Simplemaps.com</a>.</p>
 	</section>
 </main>
 
