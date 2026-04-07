@@ -81,7 +81,7 @@
 
         // Format the year months so we can put it into the x axis
         const waterYearMonth = (day) => {
-            const date = new Date(2023, 9, 1);
+            const date = new Date(2024, 9, 1);
             date.setDate(date.getDate() + (day - 1));
             return d3.timeFormat("%b")(date);
         };
