@@ -3,12 +3,26 @@
 	import { page } from '$app/stores';
 	let { children } = $props();
 
+	const siteUrl = 'https://aricchokey.com';
+	const siteName = 'Aric Chokey';
+	const defaultTitle = 'Aric Chokey — Software Engineer & Data Journalist';
+
+	let canonicalUrl = $derived(`${siteUrl}${$page.url.pathname}`);
+
 	const navLinks = [
 		{ href: '/', label: 'home' },
 		{ href: '/about', label: 'about' },
 		{ href: '/work', label: 'work' },
 	];
 </script>
+
+<svelte:head>
+	<link rel="canonical" href={canonicalUrl} />
+	<meta property="og:site_name" content={siteName} />
+	<meta property="og:url" content={canonicalUrl} />
+	<meta property="og:type" content="website" />
+	<meta name="twitter:card" content="summary" />
+</svelte:head>
 
 <header class="nav-bar">
 	<nav class="nav-inner" aria-label="Main navigation">

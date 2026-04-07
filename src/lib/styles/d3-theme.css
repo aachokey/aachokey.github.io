@@ -1,0 +1,115 @@
+:root {
+  --d3-bg: #f0f0f0;
+  --d3-text: #1e1e1e;
+  --d3-title: #1e1e1e;
+  --d3-accent: #8fafc2;
+  --d3-grid: #00000030;
+  --d3-domain: #00000049;
+  --d3-tick: #00000049;
+
+  --d3-font-body: "DM Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --d3-font-title: "Playfair Display", Georgia, serif;
+
+  --d3-stroke-width-line: 3;
+  --d3-point-size: 60;
+  --d3-bar-radius: 2;
+
+  --d3-cat-1: #c4893a;
+  --d3-cat-2: #8fafc2;
+  --d3-cat-3: #10b981;
+  --d3-cat-4: #3b82f6;
+  --d3-cat-5: #606c38;
+  --d3-cat-6: #2e3d4f;
+  --d3-cat-7: #a5a5a5;
+}
+
+.d3-theme {
+  color: var(--d3-text);
+  font-family: var(--d3-font-body);
+}
+
+.d3-theme svg {
+  overflow: visible;
+}
+
+.d3-theme text {
+  fill: var(--d3-text);
+  font-family: var(--d3-font-body);
+}
+
+.d3-theme .chart-title {
+  fill: var(--d3-title);
+  font-family: var(--d3-font-title);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.d3-theme .axis text {
+  fill: var(--d3-text);
+  font-family: var(--d3-font-body);
+}
+
+.d3-theme .axis .domain {
+  stroke: var(--d3-domain);
+}
+
+.d3-theme .axis .tick line {
+  stroke: var(--d3-tick);
+}
+
+.d3-theme .grid line {
+  stroke: var(--d3-grid);
+  stroke-dasharray: 2 2;
+}
+
+.d3-theme .grid path {
+  stroke: transparent;
+}
+
+.d3-theme .legend text {
+  fill: var(--d3-text);
+  font-family: var(--d3-font-body);
+}
+
+.d3-theme .legend-title {
+  fill: var(--d3-accent);
+  font-family: var(--d3-font-title);
+}
+
+.d3-theme .series-line {
+  fill: none;
+  stroke: var(--d3-cat-2);
+  stroke-width: var(--d3-stroke-width-line);
+}
+
+.d3-theme .series-area {
+  fill: color-mix(in srgb, var(--d3-cat-2) 30%, white);
+}
+
+.d3-theme .series-point {
+  fill: var(--d3-cat-2);
+  r: 4;
+}
+
+.d3-theme .series-bar {
+  fill: var(--d3-cat-2);
+}
+
+.d3-theme .series-bar:hover {
+  fill: var(--d3-cat-4);
+}
+
+.d3-theme .stroke-1 { stroke: var(--d3-cat-1); }
+.d3-theme .stroke-2 { stroke: var(--d3-cat-2); }
+.d3-theme .stroke-3 { stroke: var(--d3-cat-3); }
+.d3-theme .stroke-4 { stroke: var(--d3-cat-4); }
+.d3-theme .stroke-5 { stroke: var(--d3-cat-5); }
+.d3-theme .stroke-6 { stroke: var(--d3-cat-6); }
+.d3-theme .stroke-7 { stroke: var(--d3-cat-7); }
+
+.d3-theme .fill-1 { fill: var(--d3-cat-1); }
+.d3-theme .fill-2 { fill: var(--d3-cat-2); }
+.d3-theme .fill-3 { fill: var(--d3-cat-3); }
+.d3-theme .fill-4 { fill: var(--d3-cat-4); }
+.d3-theme .fill-5 { fill: var(--d3-cat-5); }
+.d3-theme .fill-6 { fill: var(--d3-cat-6); }
