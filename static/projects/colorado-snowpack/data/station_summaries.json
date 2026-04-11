@@ -11,10 +11,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 10.2,
-        "latest_data_percent_median": 0.4533333333333333,
-        "updated_at": "2026-04-10 14:46:39"
+        "latest_data_date": "April 11",
+        "latest_data_value": 10.0,
+        "latest_data_percent_median": 0.44247787610619466,
+        "updated_at": "2026-04-11 14:35:38"
     },
     {
         "station_id": "322",
@@ -28,10 +28,10 @@
         "historic_meltout_year": "1981",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 9.5,
-        "latest_data_percent_median": 0.536723163841808,
-        "updated_at": "2026-04-10 14:46:39"
+        "latest_data_date": "April 11",
+        "latest_data_value": 8.9,
+        "latest_data_percent_median": 0.5,
+        "updated_at": "2026-04-11 14:35:38"
     },
     {
         "station_id": "327",
@@ -45,10 +45,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 1.4,
-        "latest_data_percent_median": 0.0639269406392694,
-        "updated_at": "2026-04-10 14:46:39"
+        "latest_data_date": "April 11",
+        "latest_data_value": 1.1,
+        "latest_data_percent_median": 0.05092592592592593,
+        "updated_at": "2026-04-11 14:35:39"
     },
     {
         "station_id": "335",
@@ -62,10 +62,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
+        "latest_data_date": "April 11",
         "latest_data_value": 6.4,
-        "latest_data_percent_median": 0.32653061224489793,
-        "updated_at": "2026-04-10 14:46:40"
+        "latest_data_percent_median": 0.32,
+        "updated_at": "2026-04-11 14:35:39"
     },
     {
         "station_id": "345",
@@ -79,10 +79,10 @@
         "historic_meltout_year": "2002",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 10.3,
-        "latest_data_percent_median": 0.4186991869918699,
-        "updated_at": "2026-04-10 14:46:40"
+        "latest_data_date": "April 11",
+        "latest_data_value": 10.0,
+        "latest_data_percent_median": 0.4065040650406504,
+        "updated_at": "2026-04-11 14:35:39"
     },
     {
         "station_id": "1185",
@@ -96,10 +96,10 @@
         "historic_meltout_year": "2018",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
+        "latest_data_date": "April 11",
         "latest_data_value": 13.4,
         "latest_data_percent_median": null,
-        "updated_at": "2026-04-10 14:46:40"
+        "updated_at": "2026-04-11 14:35:40"
     },
     {
         "station_id": "369",
@@ -113,10 +113,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": "April 9",
         "current_meltout_day": 192,
-        "latest_data_date": "April 10",
+        "latest_data_date": "April 11",
         "latest_data_value": 0.0,
         "latest_data_percent_median": 0.0,
-        "updated_at": "2026-04-10 14:46:40"
+        "updated_at": "2026-04-11 14:35:40"
     },
     {
         "station_id": "938",
@@ -130,10 +130,10 @@
         "historic_meltout_year": "2002",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 1.9,
-        "latest_data_percent_median": 0.1792452830188679,
-        "updated_at": "2026-04-10 14:46:40"
+        "latest_data_date": "April 11",
+        "latest_data_value": 1.8,
+        "latest_data_percent_median": 0.169811320754717,
+        "updated_at": "2026-04-11 14:35:40"
     },
     {
         "station_id": "913",
@@ -147,10 +147,10 @@
         "historic_meltout_year": "2002",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 2.1,
-        "latest_data_percent_median": 0.1510791366906475,
-        "updated_at": "2026-04-10 14:46:40"
+        "latest_data_date": "April 11",
+        "latest_data_value": 1.3,
+        "latest_data_percent_median": 0.09285714285714286,
+        "updated_at": "2026-04-11 14:35:41"
     },
     {
         "station_id": "378",
@@ -164,10 +164,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": "April 7",
         "current_meltout_day": 190,
-        "latest_data_date": "April 10",
+        "latest_data_date": "April 11",
         "latest_data_value": 0.2,
         "latest_data_percent_median": 0.013157894736842106,
-        "updated_at": "2026-04-10 14:46:40"
+        "updated_at": "2026-04-11 14:35:41"
     },
     {
         "station_id": "380",
@@ -181,10 +181,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 4.0,
-        "latest_data_percent_median": 0.30303030303030304,
-        "updated_at": "2026-04-10 14:46:41"
+        "latest_data_date": "April 11",
+        "latest_data_value": 3.8,
+        "latest_data_percent_median": 0.2878787878787879,
+        "updated_at": "2026-04-11 14:35:41"
     },
     {
         "station_id": "1101",
@@ -198,10 +198,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 2.2,
-        "latest_data_percent_median": 0.15714285714285717,
-        "updated_at": "2026-04-10 14:46:41"
+        "latest_data_date": "April 11",
+        "latest_data_value": 1.8,
+        "latest_data_percent_median": 0.1285714285714286,
+        "updated_at": "2026-04-11 14:35:42"
     },
     {
         "station_id": "408",
@@ -215,10 +215,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 0.9,
-        "latest_data_percent_median": 0.03982300884955752,
-        "updated_at": "2026-04-10 14:46:41"
+        "latest_data_date": "April 11",
+        "latest_data_value": 0.2,
+        "latest_data_percent_median": 0.00892857142857143,
+        "updated_at": "2026-04-11 14:35:42"
     },
     {
         "station_id": "409",
@@ -232,10 +232,10 @@
         "historic_meltout_year": "2015",
         "current_meltout_date": "March 28",
         "current_meltout_day": 180,
-        "latest_data_date": "April 10",
+        "latest_data_date": "April 11",
         "latest_data_value": 0.0,
         "latest_data_percent_median": 0.0,
-        "updated_at": "2026-04-10 14:46:41"
+        "updated_at": "2026-04-11 14:35:42"
     },
     {
         "station_id": "904",
@@ -249,10 +249,10 @@
         "historic_meltout_year": "2002",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 10.0,
-        "latest_data_percent_median": 0.4098360655737705,
-        "updated_at": "2026-04-10 14:46:41"
+        "latest_data_date": "April 11",
+        "latest_data_value": 9.8,
+        "latest_data_percent_median": 0.40163934426229514,
+        "updated_at": "2026-04-11 14:35:43"
     },
     {
         "station_id": "415",
@@ -266,10 +266,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 3.3,
-        "latest_data_percent_median": 0.21710526315789475,
-        "updated_at": "2026-04-10 14:46:42"
+        "latest_data_date": "April 11",
+        "latest_data_value": 3.0,
+        "latest_data_percent_median": 0.19736842105263158,
+        "updated_at": "2026-04-11 14:35:43"
     },
     {
         "station_id": "426",
@@ -283,10 +283,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": "March 29",
         "current_meltout_day": 181,
-        "latest_data_date": "April 10",
+        "latest_data_date": "April 11",
         "latest_data_value": 0.1,
-        "latest_data_percent_median": 0.009433962264150945,
-        "updated_at": "2026-04-10 14:46:42"
+        "latest_data_percent_median": 0.009803921568627453,
+        "updated_at": "2026-04-11 14:35:43"
     },
     {
         "station_id": "431",
@@ -300,10 +300,10 @@
         "historic_meltout_year": "2002",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 2.2,
-        "latest_data_percent_median": 0.08527131782945736,
-        "updated_at": "2026-04-10 14:46:42"
+        "latest_data_date": "April 11",
+        "latest_data_value": 1.5,
+        "latest_data_percent_median": 0.06,
+        "updated_at": "2026-04-11 14:35:44"
     },
     {
         "station_id": "438",
@@ -317,10 +317,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
+        "latest_data_date": "April 11",
         "latest_data_value": 7.5,
-        "latest_data_percent_median": 0.4573170731707317,
-        "updated_at": "2026-04-10 14:46:42"
+        "latest_data_percent_median": 0.44910179640718567,
+        "updated_at": "2026-04-11 14:35:44"
     },
     {
         "station_id": "457",
@@ -334,10 +334,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
+        "latest_data_date": "April 11",
         "latest_data_value": 0.2,
-        "latest_data_percent_median": 0.01,
-        "updated_at": "2026-04-10 14:46:42"
+        "latest_data_percent_median": 0.010050251256281409,
+        "updated_at": "2026-04-11 14:35:44"
     },
     {
         "station_id": "465",
@@ -351,10 +351,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": "March 23",
         "current_meltout_day": 175,
-        "latest_data_date": "April 10",
+        "latest_data_date": "April 11",
         "latest_data_value": 0.0,
         "latest_data_percent_median": 0.0,
-        "updated_at": "2026-04-10 14:46:43"
+        "updated_at": "2026-04-11 14:35:45"
     },
     {
         "station_id": "467",
@@ -368,10 +368,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
+        "latest_data_date": "April 11",
         "latest_data_value": 0.1,
-        "latest_data_percent_median": 0.005813953488372094,
-        "updated_at": "2026-04-10 14:46:43"
+        "latest_data_percent_median": 0.005780346820809248,
+        "updated_at": "2026-04-11 14:35:45"
     },
     {
         "station_id": "1120",
@@ -385,10 +385,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
+        "latest_data_date": "April 11",
         "latest_data_value": 9.6,
-        "latest_data_percent_median": 0.48,
-        "updated_at": "2026-04-10 14:46:43"
+        "latest_data_percent_median": 0.4729064039408867,
+        "updated_at": "2026-04-11 14:35:45"
     },
     {
         "station_id": "1186",
@@ -402,10 +402,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
+        "latest_data_date": "April 11",
         "latest_data_value": 10.5,
         "latest_data_percent_median": null,
-        "updated_at": "2026-04-10 14:46:43"
+        "updated_at": "2026-04-11 14:35:46"
     },
     {
         "station_id": "485",
@@ -419,10 +419,10 @@
         "historic_meltout_year": "2002",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
+        "latest_data_date": "April 11",
         "latest_data_value": 7.5,
-        "latest_data_percent_median": 0.44378698224852076,
-        "updated_at": "2026-04-10 14:46:43"
+        "latest_data_percent_median": 0.4411764705882353,
+        "updated_at": "2026-04-11 14:35:46"
     },
     {
         "station_id": "1058",
@@ -436,10 +436,10 @@
         "historic_meltout_year": "2018",
         "current_meltout_date": "March 25",
         "current_meltout_day": 177,
-        "latest_data_date": "April 10",
+        "latest_data_date": "April 11",
         "latest_data_value": 0.1,
         "latest_data_percent_median": null,
-        "updated_at": "2026-04-10 14:46:43"
+        "updated_at": "2026-04-11 14:35:46"
     },
     {
         "station_id": "505",
@@ -453,10 +453,10 @@
         "historic_meltout_year": "2002",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 6.5,
-        "latest_data_percent_median": 0.3611111111111111,
-        "updated_at": "2026-04-10 14:46:44"
+        "latest_data_date": "April 11",
+        "latest_data_value": 6.3,
+        "latest_data_percent_median": 0.35,
+        "updated_at": "2026-04-11 14:35:47"
     },
     {
         "station_id": "1102",
@@ -470,10 +470,10 @@
         "historic_meltout_year": "2026",
         "current_meltout_date": "March 30",
         "current_meltout_day": 182,
-        "latest_data_date": "April 10",
+        "latest_data_date": "April 11",
         "latest_data_value": 0.0,
         "latest_data_percent_median": 0.0,
-        "updated_at": "2026-04-10 14:46:44"
+        "updated_at": "2026-04-11 14:35:47"
     },
     {
         "station_id": "1187",
@@ -487,10 +487,10 @@
         "historic_meltout_year": "2018",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 8.3,
+        "latest_data_date": "April 11",
+        "latest_data_value": 8.1,
         "latest_data_percent_median": null,
-        "updated_at": "2026-04-10 14:46:44"
+        "updated_at": "2026-04-11 14:35:47"
     },
     {
         "station_id": "531",
@@ -504,10 +504,10 @@
         "historic_meltout_year": "1981",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 6.3,
-        "latest_data_percent_median": 0.4012738853503185,
-        "updated_at": "2026-04-10 14:46:44"
+        "latest_data_date": "April 11",
+        "latest_data_value": 6.2,
+        "latest_data_percent_median": 0.39490445859872614,
+        "updated_at": "2026-04-11 14:35:47"
     },
     {
         "station_id": "542",
@@ -521,10 +521,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 5.6,
-        "latest_data_percent_median": 0.345679012345679,
-        "updated_at": "2026-04-10 14:46:44"
+        "latest_data_date": "April 11",
+        "latest_data_value": 5.3,
+        "latest_data_percent_median": 0.3271604938271605,
+        "updated_at": "2026-04-11 14:35:48"
     },
     {
         "station_id": "547",
@@ -538,10 +538,10 @@
         "historic_meltout_year": "2002",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 7.5,
-        "latest_data_percent_median": 0.5,
-        "updated_at": "2026-04-10 14:46:44"
+        "latest_data_date": "April 11",
+        "latest_data_value": 7.4,
+        "latest_data_percent_median": 0.48684210526315796,
+        "updated_at": "2026-04-11 14:35:48"
     },
     {
         "station_id": "935",
@@ -555,10 +555,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 2.6,
-        "latest_data_percent_median": 0.20800000000000002,
-        "updated_at": "2026-04-10 14:46:45"
+        "latest_data_date": "April 11",
+        "latest_data_value": 2.1,
+        "latest_data_percent_median": 0.16666666666666669,
+        "updated_at": "2026-04-11 14:35:48"
     },
     {
         "station_id": "551",
@@ -572,10 +572,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 5.8,
-        "latest_data_percent_median": 0.2710280373831776,
-        "updated_at": "2026-04-10 14:46:45"
+        "latest_data_date": "April 11",
+        "latest_data_value": 5.6,
+        "latest_data_percent_median": 0.2641509433962264,
+        "updated_at": "2026-04-11 14:35:49"
     },
     {
         "station_id": "970",
@@ -589,10 +589,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": "April 7",
         "current_meltout_day": 190,
-        "latest_data_date": "April 10",
+        "latest_data_date": "April 11",
         "latest_data_value": 0.0,
         "latest_data_percent_median": 0.0,
-        "updated_at": "2026-04-10 14:46:45"
+        "updated_at": "2026-04-11 14:35:49"
     },
     {
         "station_id": "564",
@@ -606,10 +606,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": "April 3",
         "current_meltout_day": 186,
-        "latest_data_date": "April 10",
+        "latest_data_date": "April 11",
         "latest_data_value": 0.0,
         "latest_data_percent_median": 0.0,
-        "updated_at": "2026-04-10 14:46:45"
+        "updated_at": "2026-04-11 14:35:49"
     },
     {
         "station_id": "565",
@@ -623,10 +623,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 10.4,
-        "latest_data_percent_median": 0.4406779661016949,
-        "updated_at": "2026-04-10 14:46:45"
+        "latest_data_date": "April 11",
+        "latest_data_value": 10.0,
+        "latest_data_percent_median": 0.4273504273504274,
+        "updated_at": "2026-04-11 14:35:50"
     },
     {
         "station_id": "580",
@@ -640,10 +640,10 @@
         "historic_meltout_year": "2025",
         "current_meltout_date": "March 21",
         "current_meltout_day": 173,
-        "latest_data_date": "April 10",
+        "latest_data_date": "April 11",
         "latest_data_value": 0.1,
-        "latest_data_percent_median": 0.00819672131147541,
-        "updated_at": "2026-04-10 14:46:45"
+        "latest_data_percent_median": 0.008333333333333333,
+        "updated_at": "2026-04-11 14:35:50"
     },
     {
         "station_id": "1123",
@@ -657,10 +657,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 5.3,
-        "latest_data_percent_median": 0.3028571428571428,
-        "updated_at": "2026-04-10 14:46:46"
+        "latest_data_date": "April 11",
+        "latest_data_value": 4.6,
+        "latest_data_percent_median": 0.2584269662921348,
+        "updated_at": "2026-04-11 14:35:51"
     },
     {
         "station_id": "940",
@@ -674,10 +674,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 6.8,
-        "latest_data_percent_median": 0.29310344827586204,
-        "updated_at": "2026-04-10 14:46:46"
+        "latest_data_date": "April 11",
+        "latest_data_value": 6.2,
+        "latest_data_percent_median": 0.26956521739130435,
+        "updated_at": "2026-04-11 14:35:51"
     },
     {
         "station_id": "602",
@@ -691,10 +691,10 @@
         "historic_meltout_year": "2002",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 10.9,
-        "latest_data_percent_median": 0.5477386934673367,
-        "updated_at": "2026-04-10 14:46:46"
+        "latest_data_date": "April 11",
+        "latest_data_value": 11.0,
+        "latest_data_percent_median": 0.55,
+        "updated_at": "2026-04-11 14:35:51"
     },
     {
         "station_id": "618",
@@ -708,10 +708,10 @@
         "historic_meltout_year": "2015",
         "current_meltout_date": "March 27",
         "current_meltout_day": 179,
-        "latest_data_date": "April 10",
+        "latest_data_date": "April 11",
         "latest_data_value": 0.2,
-        "latest_data_percent_median": 0.013698630136986302,
-        "updated_at": "2026-04-10 14:46:46"
+        "latest_data_percent_median": 0.013986013986013986,
+        "updated_at": "2026-04-11 14:35:52"
     },
     {
         "station_id": "622",
@@ -725,10 +725,10 @@
         "historic_meltout_year": "2002",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 1.3,
-        "latest_data_percent_median": 0.07344632768361582,
-        "updated_at": "2026-04-10 14:46:47"
+        "latest_data_date": "April 11",
+        "latest_data_value": 0.7,
+        "latest_data_percent_median": 0.039772727272727265,
+        "updated_at": "2026-04-11 14:35:52"
     },
     {
         "station_id": "624",
@@ -742,10 +742,10 @@
         "historic_meltout_year": "2002",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 6.4,
-        "latest_data_percent_median": 0.34594594594594597,
-        "updated_at": "2026-04-10 14:46:47"
+        "latest_data_date": "April 11",
+        "latest_data_value": 6.1,
+        "latest_data_percent_median": 0.33516483516483514,
+        "updated_at": "2026-04-11 14:35:53"
     },
     {
         "station_id": "1031",
@@ -759,10 +759,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 13.0,
-        "latest_data_percent_median": 0.6310679611650485,
-        "updated_at": "2026-04-10 14:46:47"
+        "latest_data_date": "April 11",
+        "latest_data_value": 12.8,
+        "latest_data_percent_median": 0.6153846153846154,
+        "updated_at": "2026-04-11 14:35:54"
     },
     {
         "station_id": "663",
@@ -776,10 +776,10 @@
         "historic_meltout_year": "2002",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 1.3,
-        "latest_data_percent_median": 0.10743801652892562,
-        "updated_at": "2026-04-10 14:46:47"
+        "latest_data_date": "April 11",
+        "latest_data_value": 1.0,
+        "latest_data_percent_median": 0.08333333333333333,
+        "updated_at": "2026-04-11 14:35:54"
     },
     {
         "station_id": "669",
@@ -793,10 +793,10 @@
         "historic_meltout_year": "2002",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 0.4,
-        "latest_data_percent_median": 0.025,
-        "updated_at": "2026-04-10 14:46:48"
+        "latest_data_date": "April 11",
+        "latest_data_value": 0.2,
+        "latest_data_percent_median": 0.012820512820512822,
+        "updated_at": "2026-04-11 14:35:55"
     },
     {
         "station_id": "682",
@@ -810,10 +810,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 11.5,
-        "latest_data_percent_median": 0.44921875,
-        "updated_at": "2026-04-10 14:46:48"
+        "latest_data_date": "April 11",
+        "latest_data_value": 11.3,
+        "latest_data_percent_median": 0.437984496124031,
+        "updated_at": "2026-04-11 14:35:55"
     },
     {
         "station_id": "709",
@@ -827,10 +827,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 3.8,
-        "latest_data_percent_median": 0.15637860082304525,
-        "updated_at": "2026-04-10 14:46:48"
+        "latest_data_date": "April 11",
+        "latest_data_value": 3.4,
+        "latest_data_percent_median": 0.1382113821138211,
+        "updated_at": "2026-04-11 14:35:56"
     },
     {
         "station_id": "713",
@@ -844,10 +844,10 @@
         "historic_meltout_year": "2002",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 5.9,
-        "latest_data_percent_median": 0.25,
-        "updated_at": "2026-04-10 14:46:49"
+        "latest_data_date": "April 11",
+        "latest_data_value": 5.6,
+        "latest_data_percent_median": 0.23931623931623933,
+        "updated_at": "2026-04-11 14:35:57"
     },
     {
         "station_id": "717",
@@ -861,10 +861,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 11.5,
-        "latest_data_percent_median": 0.4356060606060606,
-        "updated_at": "2026-04-10 14:46:49"
+        "latest_data_date": "April 11",
+        "latest_data_value": 11.2,
+        "latest_data_percent_median": 0.42424242424242425,
+        "updated_at": "2026-04-11 14:35:57"
     },
     {
         "station_id": "718",
@@ -878,10 +878,10 @@
         "historic_meltout_year": "1981",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 4.4,
-        "latest_data_percent_median": 0.28571428571428575,
-        "updated_at": "2026-04-10 14:46:49"
+        "latest_data_date": "April 11",
+        "latest_data_value": 4.0,
+        "latest_data_percent_median": 0.2597402597402597,
+        "updated_at": "2026-04-11 14:35:57"
     },
     {
         "station_id": "939",
@@ -895,10 +895,10 @@
         "historic_meltout_year": "2002",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
+        "latest_data_date": "April 11",
         "latest_data_value": 0.4,
         "latest_data_percent_median": 0.06666666666666667,
-        "updated_at": "2026-04-10 14:46:49"
+        "updated_at": "2026-04-11 14:35:57"
     },
     {
         "station_id": "737",
@@ -912,10 +912,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 12.4,
-        "latest_data_percent_median": 0.3924050632911392,
-        "updated_at": "2026-04-10 14:46:49"
+        "latest_data_date": "April 11",
+        "latest_data_value": 12.2,
+        "latest_data_percent_median": 0.38364779874213834,
+        "updated_at": "2026-04-11 14:35:58"
     },
     {
         "station_id": "1060",
@@ -929,10 +929,10 @@
         "historic_meltout_year": "2025",
         "current_meltout_date": "March 30",
         "current_meltout_day": 182,
-        "latest_data_date": "April 10",
-        "latest_data_value": 1.0,
-        "latest_data_percent_median": 0.06024096385542168,
-        "updated_at": "2026-04-10 14:46:50"
+        "latest_data_date": "April 11",
+        "latest_data_value": 0.4,
+        "latest_data_percent_median": 0.02439024390243903,
+        "updated_at": "2026-04-11 14:35:59"
     },
     {
         "station_id": "762",
@@ -946,10 +946,10 @@
         "historic_meltout_year": "1981",
         "current_meltout_date": "March 31",
         "current_meltout_day": 183,
-        "latest_data_date": "April 10",
+        "latest_data_date": "April 11",
         "latest_data_value": 0.2,
         "latest_data_percent_median": 0.013698630136986302,
-        "updated_at": "2026-04-10 14:46:50"
+        "updated_at": "2026-04-11 14:35:59"
     },
     {
         "station_id": "773",
@@ -963,10 +963,10 @@
         "historic_meltout_year": "2018",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 3.8,
-        "latest_data_percent_median": 0.19895287958115182,
-        "updated_at": "2026-04-10 14:46:50"
+        "latest_data_date": "April 11",
+        "latest_data_value": 3.6,
+        "latest_data_percent_median": 0.18947368421052632,
+        "updated_at": "2026-04-11 14:35:59"
     },
     {
         "station_id": "780",
@@ -980,10 +980,10 @@
         "historic_meltout_year": "2002",
         "current_meltout_date": "March 29",
         "current_meltout_day": 181,
-        "latest_data_date": "April 10",
-        "latest_data_value": 1.4,
-        "latest_data_percent_median": 0.0608695652173913,
-        "updated_at": "2026-04-10 14:46:50"
+        "latest_data_date": "April 11",
+        "latest_data_value": 0.9,
+        "latest_data_percent_median": 0.03879310344827586,
+        "updated_at": "2026-04-11 14:35:59"
     },
     {
         "station_id": "797",
@@ -997,10 +997,10 @@
         "historic_meltout_year": "2002",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 3.8,
-        "latest_data_percent_median": 0.22093023255813954,
-        "updated_at": "2026-04-10 14:46:50"
+        "latest_data_date": "April 11",
+        "latest_data_value": 3.6,
+        "latest_data_percent_median": 0.21052631578947367,
+        "updated_at": "2026-04-11 14:36:00"
     },
     {
         "station_id": "802",
@@ -1014,10 +1014,10 @@
         "historic_meltout_year": "2026",
         "current_meltout_date": "March 27",
         "current_meltout_day": 179,
-        "latest_data_date": "April 10",
+        "latest_data_date": "April 11",
         "latest_data_value": 0.0,
         "latest_data_percent_median": 0.0,
-        "updated_at": "2026-04-10 14:46:50"
+        "updated_at": "2026-04-11 14:36:00"
     },
     {
         "station_id": "825",
@@ -1031,10 +1031,10 @@
         "historic_meltout_year": "2002",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 23.2,
-        "latest_data_percent_median": 0.5248868778280542,
-        "updated_at": "2026-04-10 14:46:50"
+        "latest_data_date": "April 11",
+        "latest_data_value": 22.8,
+        "latest_data_percent_median": 0.5135135135135136,
+        "updated_at": "2026-04-11 14:36:00"
     },
     {
         "station_id": "827",
@@ -1046,12 +1046,12 @@
         "historic_meltout_day": 176,
         "historic_meltout_date": "March 24",
         "historic_meltout_year": "2017",
-        "current_meltout_date": null,
-        "current_meltout_day": null,
-        "latest_data_date": "April 10",
+        "current_meltout_date": "April 10",
+        "current_meltout_day": 193,
+        "latest_data_date": "April 11",
         "latest_data_value": 0.1,
         "latest_data_percent_median": null,
-        "updated_at": "2026-04-10 14:46:51"
+        "updated_at": "2026-04-11 14:36:00"
     },
     {
         "station_id": "838",
@@ -1065,10 +1065,10 @@
         "historic_meltout_year": "1981",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 8.8,
-        "latest_data_percent_median": 0.5301204819277109,
-        "updated_at": "2026-04-10 14:46:51"
+        "latest_data_date": "April 11",
+        "latest_data_value": 8.7,
+        "latest_data_percent_median": 0.5240963855421686,
+        "updated_at": "2026-04-11 14:36:01"
     },
     {
         "station_id": "840",
@@ -1082,10 +1082,10 @@
         "historic_meltout_year": "2002",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 2.6,
-        "latest_data_percent_median": 0.09154929577464789,
-        "updated_at": "2026-04-10 14:46:51"
+        "latest_data_date": "April 11",
+        "latest_data_value": 2.3,
+        "latest_data_percent_median": 0.0804195804195804,
+        "updated_at": "2026-04-11 14:36:01"
     },
     {
         "station_id": "1141",
@@ -1099,10 +1099,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": "March 30",
         "current_meltout_day": 182,
-        "latest_data_date": "April 10",
+        "latest_data_date": "April 11",
         "latest_data_value": 0.1,
-        "latest_data_percent_median": 0.008547008547008548,
-        "updated_at": "2026-04-10 14:46:51"
+        "latest_data_percent_median": 0.008771929824561403,
+        "updated_at": "2026-04-11 14:36:02"
     },
     {
         "station_id": "842",
@@ -1116,10 +1116,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": "March 31",
         "current_meltout_day": 183,
-        "latest_data_date": "April 10",
+        "latest_data_date": "April 11",
         "latest_data_value": 0.1,
         "latest_data_percent_median": 0.005208333333333334,
-        "updated_at": "2026-04-10 14:46:51"
+        "updated_at": "2026-04-11 14:36:02"
     },
     {
         "station_id": "843",
@@ -1133,10 +1133,10 @@
         "historic_meltout_year": "2002",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 0.2,
-        "latest_data_percent_median": 0.014705882352941178,
-        "updated_at": "2026-04-10 14:46:51"
+        "latest_data_date": "April 11",
+        "latest_data_value": 0.3,
+        "latest_data_percent_median": 0.022058823529411766,
+        "updated_at": "2026-04-11 14:36:02"
     },
     {
         "station_id": "1188",
@@ -1150,10 +1150,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": "March 29",
         "current_meltout_day": 181,
-        "latest_data_date": "April 10",
-        "latest_data_value": 0.1,
+        "latest_data_date": "April 11",
+        "latest_data_value": 0.2,
         "latest_data_percent_median": null,
-        "updated_at": "2026-04-10 14:46:52"
+        "updated_at": "2026-04-11 14:36:02"
     },
     {
         "station_id": "1160",
@@ -1167,10 +1167,10 @@
         "historic_meltout_year": "2025",
         "current_meltout_date": "March 27",
         "current_meltout_day": 179,
-        "latest_data_date": "April 10",
+        "latest_data_date": "April 11",
         "latest_data_value": 0.0,
         "latest_data_percent_median": 0.0,
-        "updated_at": "2026-04-10 14:46:52"
+        "updated_at": "2026-04-11 14:36:03"
     },
     {
         "station_id": "1042",
@@ -1184,10 +1184,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 6.7,
-        "latest_data_percent_median": 0.41358024691358025,
-        "updated_at": "2026-04-10 14:46:52"
+        "latest_data_date": "April 11",
+        "latest_data_value": 6.4,
+        "latest_data_percent_median": 0.39263803680981596,
+        "updated_at": "2026-04-11 14:36:03"
     },
     {
         "station_id": "869",
@@ -1201,10 +1201,10 @@
         "historic_meltout_year": "1981",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 7.3,
-        "latest_data_percent_median": 0.5447761194029851,
-        "updated_at": "2026-04-10 14:46:52"
+        "latest_data_date": "April 11",
+        "latest_data_value": 7.2,
+        "latest_data_percent_median": 0.5373134328358209,
+        "updated_at": "2026-04-11 14:36:03"
     },
     {
         "station_id": "870",
@@ -1218,10 +1218,10 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 6.4,
-        "latest_data_percent_median": 0.3595505617977528,
-        "updated_at": "2026-04-10 14:46:52"
+        "latest_data_date": "April 11",
+        "latest_data_value": 6.0,
+        "latest_data_percent_median": 0.33707865168539325,
+        "updated_at": "2026-04-11 14:36:04"
     },
     {
         "station_id": "874",
@@ -1235,10 +1235,10 @@
         "historic_meltout_year": "2018",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 10.7,
-        "latest_data_percent_median": 0.34516129032258064,
-        "updated_at": "2026-04-10 14:46:52"
+        "latest_data_date": "April 11",
+        "latest_data_value": 10.6,
+        "latest_data_percent_median": 0.33974358974358976,
+        "updated_at": "2026-04-11 14:36:04"
     },
     {
         "station_id": "1033",
@@ -1252,9 +1252,9 @@
         "historic_meltout_year": "2012",
         "current_meltout_date": null,
         "current_meltout_day": null,
-        "latest_data_date": "April 10",
-        "latest_data_value": 2.5,
-        "latest_data_percent_median": 0.09124087591240876,
-        "updated_at": "2026-04-10 14:46:52"
+        "latest_data_date": "April 11",
+        "latest_data_value": 1.6,
+        "latest_data_percent_median": 0.05947955390334573,
+        "updated_at": "2026-04-11 14:36:04"
     }
 ]
